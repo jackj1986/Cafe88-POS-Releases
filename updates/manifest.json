@@ -1,9 +1,15 @@
 {
-    "version":  "0.4.3.128",
-    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.4.3.128/Cafe88-POS-update-0.4.3.128.zip",
-    "sha256":  "8a47eb26cf918266f4a2bcde3a7b2b27542d5ca4248f838219acf98950243599",
+    "version":  "0.4.3.129",
+    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.4.3.129/Cafe88-POS-update-0.4.3.129.zip",
+    "sha256":  "bb74594870fc363807a94acefbe59ef071c30dfac0a619260dc360e56107b555",
     "required":  false,
     "notes":  [
+                  "Cafe88 POS 0.4.3.129",
+                  "De core update-ZIP weigert nu ook Windows-padconflicten tussen bestanden en onderliggende mapinhoud",
+                  "Een bestand zoals app/cache kan niet meer naast app/cache/bestand.txt in hetzelfde updatepakket voorkomen",
+                  "De controle werkt in beide ZIP-volgordes: zowel wanneer het bestand eerst staat als wanneer het onderliggende pad eerst staat",
+                  "Padvergelijking blijft hoofdletterongevoelig zodat Windows-extractie geen ambigue bestand/mapstructuur kan krijgen",
+                  "Regressietests bewaken beide volgordes van deze file-directory ancestor collision",
                   "Cafe88 POS 0.4.3.128",
                   "De core update-ZIP past de bestaande harde structuurgrenzen nu daadwerkelijk toe tijdens de volledige ZIP-validatie",
                   "Elke ZIP-entry telt nu mee tegen de limiet van 5000 entries voordat release.json of app-inhoud verder wordt verwerkt",
