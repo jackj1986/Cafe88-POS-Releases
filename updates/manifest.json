@@ -1,9 +1,15 @@
 {
-    "version":  "0.4.3.119",
-    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.4.3.119/Cafe88-POS-update-0.4.3.119.zip",
-    "sha256":  "80f86e57fd8b3739a6a096ec538515a72551101adab3f1933f7468513c93b41a",
+    "version":  "0.4.3.120",
+    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.4.3.120/Cafe88-POS-update-0.4.3.120.zip",
+    "sha256":  "5dfb8dbd46976e7be4a82e6bf328315ad7f2e257bf088fbeb9001b69a08cb78b",
     "required":  false,
     "notes":  [
+                  "Cafe88 POS 0.4.3.120",
+                  "Externe module-installaties weigeren nu een pakketversie die ouder is dan de reeds geinstalleerde module",
+                  "De downgradecontrole geldt zowel bij normaal klaarzetten als opnieuw vlak voor het toepassen van een pending pakket tijdens startup",
+                  "Een oud achtergebleven pending pakket kan daardoor geen nieuwere geinstalleerde module terugrollen",
+                  "Dezelfde moduleversie opnieuw klaarzetten blijft toegestaan voor herstel of reparatie",
+                  "Regressietests bewaken directe downgrade, een stale pending downgrade en een geldige herinstallatie van dezelfde versie",
                   "Cafe88 POS 0.4.3.119",
                   "De update-ZIP-validatie blokkeert nu extra Windows-specifieke onveilige paden voordat PowerShell Expand-Archive wordt gestart",
                   "NTFS Alternate Data Stream-paden met een dubbele punt worden geweigerd",
