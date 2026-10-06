@@ -1,9 +1,15 @@
 {
-    "version":  "0.4.3.95",
-    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.4.3.95/Cafe88-POS-update-0.4.3.95.zip",
-    "sha256":  "49c91c5ee56a5d47ffdd28414f803e7dce3a8cb535d4583b26453635b8e22c48",
+    "version":  "0.4.3.96",
+    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.4.3.96/Cafe88-POS-update-0.4.3.96.zip",
+    "sha256":  "f11b76da4ddf180761d7b5d9fe1e696de0682e446cebb53685f09f15489eec67",
     "required":  false,
     "notes":  [
+                  "Cafe88 POS 0.4.3.96",
+                  "GitHub-publicatie van 0.4.3.96 gestart na geslaagde volledige verificatie",
+                  "Externe module-JARs worden vÃ³Ã³r het aanmaken van een classloader gecontroleerd op een geldige JAR-structuur",
+                  "Een beschadigd of half gedownload modulebestand wordt bij startup overgeslagen in plaats van de module-loading te verstoren",
+                  "Andere geldige modules in dezelfde modules-map blijven gewoon laden",
+                  "Regressietests controleren zowel alleen een beschadigde JAR als een beschadigde JAR vÃ³Ã³r een geldige voorraadmodule",
                   "Cafe88 POS 0.4.3.95",
                   "GitHub-publicatie van 0.4.3.95 gestart na geslaagde volledige verificatie",
                   "Elke externe module-JAR krijgt een eigen classloader in plaats van Ã©Ã©n gedeelde classloader voor alle modules",
