@@ -1,9 +1,15 @@
 {
-    "version":  "0.4.3.127",
-    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.4.3.127/Cafe88-POS-update-0.4.3.127.zip",
-    "sha256":  "0d627ef7a8984acbf54fa1ef762b22579426ef0af0c8c51c38b2f20d3f6df399",
+    "version":  "0.4.3.128",
+    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.4.3.128/Cafe88-POS-update-0.4.3.128.zip",
+    "sha256":  "8a47eb26cf918266f4a2bcde3a7b2b27542d5ca4248f838219acf98950243599",
     "required":  false,
     "notes":  [
+                  "Cafe88 POS 0.4.3.128",
+                  "De core update-ZIP past de bestaande harde structuurgrenzen nu daadwerkelijk toe tijdens de volledige ZIP-validatie",
+                  "Elke ZIP-entry telt nu mee tegen de limiet van 5000 entries voordat release.json of app-inhoud verder wordt verwerkt",
+                  "De opgegeven ongecomprimeerde grootte van elke entry telt nu mee tegen de totale limiet van 1 GiB en onbekende of ongeldige entrygroottes worden geweigerd",
+                  "Hiermee zijn de eerder aanwezige grensfuncties niet langer alleen los getest maar ook gekoppeld aan het echte updatepad",
+                  "Een regressietest bouwt een update-ZIP met 5001 entries en controleert dat de echte validator deze afwijst",
                   "Cafe88 POS 0.4.3.127",
                   "De externe module-loader begrenst nu ook ServiceLoader-descriptors tijdens normale applicatiestart",
                   "Alle META-INF/services-bestanden in handmatig geplaatste module-JARs mogen maximaal 64 KiB groot zijn",
