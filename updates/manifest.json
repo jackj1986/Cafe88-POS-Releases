@@ -1,9 +1,15 @@
 {
-    "version":  "0.4.3.121",
-    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.4.3.121/Cafe88-POS-update-0.4.3.121.zip",
-    "sha256":  "fdcc86ffcc959116a2d34df6a673946fa03d4400d744e90787462988ffc4db76",
+    "version":  "0.4.3.122",
+    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.4.3.122/Cafe88-POS-update-0.4.3.122.zip",
+    "sha256":  "bc10f47c7823acf087b2e0c72efba446ae23639051df1111458ef01b712afcdb",
     "required":  false,
     "notes":  [
+                  "Cafe88 POS 0.4.3.122",
+                  "Externe module-JARs begrenzen cafe88-module.properties nu op 64 KiB voordat Properties.load wordt uitgevoerd",
+                  "ServiceLoader-descriptors worden eveneens op maximaal 64 KiB begrensd voordat ze als UTF-8 tekst worden ingelezen",
+                  "Zowel de opgegeven JAR-entrygrootte als de werkelijk gestreamde inhoud wordt gecontroleerd",
+                  "Dit voorkomt dat sterk gecomprimeerde oversized metadata of servicebestanden onnodig veel geheugen gebruiken tijdens modulevalidatie",
+                  "Regressietests bewaken te grote modulemetadata en een te groot ServiceLoader-descriptor",
                   "Cafe88 POS 0.4.3.121",
                   "Release-notes worden in de Windows PowerShell packaging expliciet als UTF-8 gelezen",
                   "GitHub Release API JSON-bodies worden op Windows PowerShell 5.1 nu expliciet als UTF-8 bytes verstuurd",
