@@ -1,9 +1,15 @@
 {
-    "version":  "0.4.3.123",
-    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.4.3.123/Cafe88-POS-update-0.4.3.123.zip",
-    "sha256":  "3bbf762971a7ab5f5d43509b01588caa1d5394beb99858ec30a512ea236c344d",
+    "version":  "0.4.3.124",
+    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.4.3.124/Cafe88-POS-update-0.4.3.124.zip",
+    "sha256":  "426c9830d18938cfba6c1bc051f9838adbcee3893631360cbfcb6ea78f625c20",
     "required":  false,
     "notes":  [
+                  "Cafe88 POS 0.4.3.124",
+                  "Ook lokaal of handmatig geselecteerde externe module-JARs hebben nu dezelfde harde maximale pakketgrootte van 50 MB als gedownloade modules",
+                  "De bestandsgrootte wordt gecontroleerd voordat JarFile metadata of ServiceLoader-inhoud opent",
+                  "Een oversized lokaal pakket kan daardoor de downloadlimiet niet omzeilen",
+                  "Een pakket op exact de maximale grootte blijft door de groottecontrole toegestaan",
+                  "Regressietests bewaken een lokaal pakket boven 50 MB en de exacte grenswaarde",
                   "Cafe88 POS 0.4.3.123",
                   "De modulecatalogus wordt niet meer eerst onbeperkt als byte-array in geheugen geladen",
                   "HttpClient levert de catalogus nu als InputStream en de body wordt tijdens het lezen hard begrensd op 256 KiB",
