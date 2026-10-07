@@ -1,9 +1,15 @@
 {
-    "version":  "0.5.31",
-    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.31/Cafe88-POS-update-0.5.31.zip",
-    "sha256":  "8bc04b88889a4bc0ed0e7e5a5791161fe8ff47e1324143e69f42541483c6c9b2",
+    "version":  "0.5.32",
+    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.32/Cafe88-POS-update-0.5.32.zip",
+    "sha256":  "1e95087a78cd74d8f4a7a57969eb6428728eacd77515061b651228f70ef4d7ec",
     "required":  false,
     "notes":  [
+                  "Cafe88 POS 0.5.32",
+                  "Betalingenoverzicht gebruikt bij een gekozen datum nu rechtstreeks de bestaande databasequery voor die dag",
+                  "Het scherm laadt daardoor niet langer eerst alle betalingen om ze daarna in Java op datum te filteren",
+                  "Tekstzoeken blijft lokaal werken maar alleen over de al door SQLite beperkte resultaatset",
+                  "De weergave zonder datumfilter blijft ongewijzigd en toont nog steeds alle betalingen",
+                  "Full-CI #784 is groen; deze publicatie gebruikt de geteste 0.5.32-code",
                   "Cafe88 POS 0.5.31",
                   "Klantenbeheer bundelt openstaand saldo en totale omzet nu in één gerichte batchquery",
                   "De eerdere twee losse SQLite-queries per klant zijn uit vernieuwKlantenBeheer verwijderd",
