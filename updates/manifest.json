@@ -1,9 +1,15 @@
 {
-    "version":  "0.4.3.132",
-    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.4.3.132/Cafe88-POS-update-0.4.3.132.zip",
-    "sha256":  "285542a1ce2b2fefde3e103e99f49c60ef77b4d59cd73dec59deb491bdbfa11a",
+    "version":  "0.4.3.133",
+    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.4.3.133/Cafe88-POS-update-0.4.3.133.zip",
+    "sha256":  "a23bf448f541006d87fb5faa94d74afcf2b041b4d5b3baae5ed8a73e417e49fb",
     "required":  false,
     "notes":  [
+                  "Cafe88 POS 0.4.3.133",
+                  "Pending modulepakketten uit versies vóór 0.4.3.130 zonder SHA-256 sidecar blokkeren de applicatiestart niet meer",
+                  "Zo\u0027n legacy pending pakket wordt bewust niet vertrouwd of toegepast omdat de oorspronkelijke bytes achteraf niet cryptografisch kunnen worden vastgesteld",
+                  "De onverifieerbare staging wordt veilig opgeruimd terwijl een reeds geïnstalleerde module ongemoeid blijft",
+                  "Nieuwe pending pakketten met SHA-256 sidecar blijven strikt gecontroleerd zoals in 0.4.3.130 en 0.4.3.131",
+                  "Regressietests bewaken zowel een legacy downgrade-pakket als een nog niet geïnstalleerd legacy pakket zonder hash",
                   "Cafe88 POS 0.4.3.132",
                   "release.json in een core update-ZIP heeft nu een harde limiet van 64 KiB",
                   "De limiet wordt altijd gecontroleerd tijdens ZIP-validatie, ook wanneer geen verwachte manifestversie is meegegeven",
