@@ -1,9 +1,15 @@
 {
-    "version":  "0.5.14",
-    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.14/Cafe88-POS-update-0.5.14.zip",
-    "sha256":  "f35b791b00c02d9aeb1602fb8298d7912711d22c84c332cc95a0b1b1fb04b003",
+    "version":  "0.5.15",
+    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.15/Cafe88-POS-update-0.5.15.zip",
+    "sha256":  "169a69a67f6b699279826db96633f819c05c15567558e13af6859c161a6b6b53",
     "required":  false,
     "notes":  [
+                  "Cafe88 POS 0.5.15",
+                  "Open en betaalde bonnen laden hun bonregels nu per status in één batchquery",
+                  "De eerdere N+1-route met één extra SQLite-query per bon is uit de startup- en herlaadroute verwijderd",
+                  "Een losse findById blijft bewust alleen de regels van die ene bon laden",
+                  "Dit verkleint vooral bij een groeiende betaalhistorie het aantal SQLite-roundtrips tijdens kassastart",
+                  "Regressietest controleert meerdere open en betaalde bonnen met verschillende bonregels via de nieuwe batchroute",
                   "Cafe88 POS 0.5.14",
                   "SnelStart grootboek- en dagboekinstellingen worden per applicatiesessie in geheugen gecachet",
                   "Rapportexports en het instellingenmenu lezen daardoor niet telkens opnieuw dezelfde SnelStart-configuratie uit SQLite",
