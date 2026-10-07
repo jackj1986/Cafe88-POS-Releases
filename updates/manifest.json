@@ -1,9 +1,14 @@
 {
-    "version":  "0.5.7",
-    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.7/Cafe88-POS-update-0.5.7.zip",
-    "sha256":  "88641331a14027d7a4af47f2c5aed2fa2512211b49c3bde02adf16e9ddab17e6",
+    "version":  "0.5.8",
+    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.8/Cafe88-POS-update-0.5.8.zip",
+    "sha256":  "d08ab326ee4059c4081805075a24bcff6fdc8814edf96a1a440a53c0504b9b76",
     "required":  false,
     "notes":  [
+                  "Cafe88 POS 0.5.8",
+                  "De geselecteerde bonprinter wordt per applicatiesessie in geheugen gecachet",
+                  "Bonnen en herdrukken lezen daardoor niet telkens opnieuw printer_naam uit business_settings",
+                  "Opslaan of herstellen van printerinstellingen werkt de sessiesnapshot direct bij",
+                  "Regressietests controleren één repository-load voor herhaalde printerchecks en directe cache-update na opslaan",
                   "Cafe88 POS 0.5.7",
                   "Algemene POS-instellingen worden per applicatiesessie in geheugen gecachet",
                   "Startupchecks voor bonprinten, kassalade, fullscreen en snelle klanten lezen daardoor niet telkens opnieuw business_settings",
