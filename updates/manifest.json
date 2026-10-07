@@ -1,9 +1,15 @@
 {
-    "version":  "0.5.27",
-    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.27/Cafe88-POS-update-0.5.27.zip",
-    "sha256":  "e3b19f8417dc03af1499b1774318fa4ec0699eff13b0adaa8875982bdf8bb8d6",
+    "version":  "0.5.28",
+    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.28/Cafe88-POS-update-0.5.28.zip",
+    "sha256":  "033da3e0566af7d2eff3050be3d7eed7b9c0db1fa177258db0dbd5fe919d64b1",
     "required":  false,
     "notes":  [
+                  "Cafe88 POS 0.5.28",
+                  "Volledige klantrefresh voert de snelle-klantenrefresh niet langer dubbel uit",
+                  "vernieuwKlanten gebruikt alleen verversKlantenpaneel, dat de snelle klantinvoer al meeneemt",
+                  "Hierdoor vervalt één extra klanten-snapshot bij handmatige of externe klantverversingen",
+                  "De periodieke refresh en normale klantinteracties blijven ongewijzigd",
+                  "Full-CI #776 is groen; deze publicatie gebruikt de geteste 0.5.28-code",
                   "Cafe88 POS 0.5.27",
                   "Snelklantflows vragen receipt-stats nu alleen op voor de relevante snelklant-ID\u0027s",
                   "De SQLite-batchquery gebruikt daarvoor een gerichte IN-filter in plaats van alle klantbonnen te aggregeren",
