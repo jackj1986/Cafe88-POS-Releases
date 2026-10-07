@@ -1,9 +1,15 @@
 {
-    "version":  "0.5.9",
-    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.9/Cafe88-POS-update-0.5.9.zip",
-    "sha256":  "dad08f495fa121ee79aa9ae7c54d5c9cff71bdeee513d43379693d6fa13f0d7a",
+    "version":  "0.5.10",
+    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.10/Cafe88-POS-update-0.5.10.zip",
+    "sha256":  "8641f07fc41ede065da920e7d22dacd1be4a7f66777be163630b1afa819728a4",
     "required":  false,
     "notes":  [
+                  "Cafe88 POS 0.5.10",
+                  "SumUp-instellingen worden per applicatiesessie in geheugen gecachet",
+                  "Betaalcontroles lezen en ontsleutelen daardoor niet telkens opnieuw dezelfde SumUp-configuratie uit SQLite",
+                  "De eenmalige DPAPI-legacy-migratie blijft bij de eerste load gewoon uitgevoerd",
+                  "Opslaan werkt de sessiesnapshot direct bij zodat gewijzigde betaalinstellingen meteen actief zijn",
+                  "Regressietests controleren één repository-load voor meerdere SumUp-checks en directe cache-update na opslaan",
                   "Cafe88 POS 0.5.9",
                   "De actuele BTW-instellingen worden per applicatiesessie in geheugen gecachet",
                   "Nieuwe verkopen lezen daardoor lage en hoge BTW-tarieven niet telkens opnieuw uit business_settings",
