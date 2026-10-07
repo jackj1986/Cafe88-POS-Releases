@@ -1,9 +1,15 @@
 {
-    "version":  "0.5.39",
-    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.39/Cafe88-POS-update-0.5.39.zip",
-    "sha256":  "119dc2ad265e371de4412e9d9debe406aa0943bb59efd69e6b69994c321a96a9",
+    "version":  "0.5.40",
+    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.40/Cafe88-POS-update-0.5.40.zip",
+    "sha256":  "7fa81efc8a80e7f228b4acb0340df766fba7338689ccc7522146b6be84b9f604",
     "required":  false,
     "notes":  [
+                  "Cafe88 POS 0.5.40",
+                  "Voorraadinstellingen doorzoeken de vernieuwde voorraadlijst niet langer een tweede keer om hetzelfde geselecteerde product opnieuw te selecteren",
+                  "refresh() bewaart het geselecteerde voorraadproduct al vóór het verversen en herstelt die selectie zelf",
+                  "Opslaan van voorraad en toevoegen van een verpakking gebruiken daarom direct refresh() zonder extra lineaire scan",
+                  "Dit vermindert onnodig UI-werk bij veel voorraadproducten zonder gedrag te wijzigen",
+                  "Full-CI #801 is groen; deze publicatie gebruikt de geteste 0.5.40-code",
                   "Cafe88 POS 0.5.39",
                   "Boninitialisatie voert bij opstart geen aparte SELECT MAX(id) meer uit",
                   "Open en betaalde bonnen vormen samen alle opgeslagen bonnen en zijn op dat moment al geladen",
