@@ -1,9 +1,15 @@
 {
-    "version":  "0.5.10",
-    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.10/Cafe88-POS-update-0.5.10.zip",
-    "sha256":  "8641f07fc41ede065da920e7d22dacd1be4a7f66777be163630b1afa819728a4",
+    "version":  "0.5.11",
+    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.11/Cafe88-POS-update-0.5.11.zip",
+    "sha256":  "36ccce2eb521da1ddff827f14c55a439fbec485d94a29f2e84929ac8ae1124d0",
     "required":  false,
     "notes":  [
+                  "Cafe88 POS 0.5.11",
+                  "Rapportage-, dagafsluitings- en SMTP-instellingen worden per applicatiesessie in geheugen gecachet",
+                  "De automatische dagafsluiting leest daardoor niet iedere controle opnieuw dezelfde business_settings-rij uit SQLite",
+                  "Ook het SMTP-wachtwoord hoeft na de eerste load niet opnieuw te worden gedecodeerd",
+                  "Alle save-routes en herstellen naar standaardwaarden werken de sessiesnapshot direct bij",
+                  "Regressietests controleren één repository-load voor meerdere rapportagechecks en directe cache-update na opslaan",
                   "Cafe88 POS 0.5.10",
                   "SumUp-instellingen worden per applicatiesessie in geheugen gecachet",
                   "Betaalcontroles lezen en ontsleutelen daardoor niet telkens opnieuw dezelfde SumUp-configuratie uit SQLite",
