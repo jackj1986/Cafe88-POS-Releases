@@ -1,9 +1,15 @@
 {
-    "version":  "0.5.3",
-    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.3/Cafe88-POS-update-0.5.3.zip",
-    "sha256":  "007eb81363283ac4dfc78f2b5edbe986b26a6d7e27ba51e3f2e16f6d41813138",
+    "version":  "0.5.4",
+    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.4/Cafe88-POS-update-0.5.4.zip",
+    "sha256":  "5ce1839bab165c4a6076186477df65def35d3d55dd9a78cfac7da3bbb1c52e72",
     "required":  false,
     "notes":  [
+                  "Cafe88 POS 0.5.4",
+                  "Module-instellingen worden per applicatiesessie in geheugen gecachet",
+                  "Herhaalde isEnabled()/isActive()-controles lezen daardoor niet telkens opnieuw de volledige module_settings-tabel",
+                  "Een wijziging via save() werkt de cache direct bij zodat de actuele gebruikersinstelling meteen zichtbaar blijft",
+                  "Dit vermindert SQLite-verkeer tijdens startup en bij het koppelen van module-afhankelijke schermen",
+                  "Regressietest controleert dat meerdere modulechecks slechts één repository-load uitvoeren en dat save() zonder extra reload doorwerkt",
                   "Cafe88 POS 0.5.3",
                   "De startupcontrole of er al producten bestaan laadt niet langer de volledige producttabel",
                   "SQLite gebruikt nu SELECT 1 FROM products LIMIT 1 voor deze controle",
