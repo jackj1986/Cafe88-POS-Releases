@@ -1,9 +1,15 @@
 {
-    "version":  "0.5.35",
-    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.35/Cafe88-POS-update-0.5.35.zip",
-    "sha256":  "1adf581249c87de91e792b77962b57da7565437926bd0f830d91d0d0e7433b17",
+    "version":  "0.5.36",
+    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.36/Cafe88-POS-update-0.5.36.zip",
+    "sha256":  "e8b3480fbc0f97864e937de121c51f0b87e80a69509d72de2d252e8ac27b2357",
     "required":  false,
     "notes":  [
+                  "Cafe88 POS 0.5.36",
+                  "Klantenbeheer bouwt bij refresh één ID-naar-naam-index voor klantstatussen",
+                  "Samengevoegde klanten zoeken hun doelnaam daardoor niet langer telkens opnieuw door de volledige klantenlijst",
+                  "De statusopbouw gaat van herhaalde lineaire scans naar directe map-lookups",
+                  "Openstaand saldo en omzet blijven uit de bestaande financiële batchquery komen",
+                  "Full-CI #792 is groen; deze publicatie gebruikt de geteste 0.5.36-code",
                   "Cafe88 POS 0.5.35",
                   "PIN en wisselgeldhulp scannen de open bonnen van een klantrekening niet langer dubbel voordat de betaling start",
                   "De PIN-route laat het bedragvenster direct het klanttotaal bepalen in plaats van eerst apart kan-betalen te controleren",
