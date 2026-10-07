@@ -1,9 +1,14 @@
 {
-    "version":  "0.5.13",
-    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.13/Cafe88-POS-update-0.5.13.zip",
-    "sha256":  "c6c349010d3256cbea758602ea7608d818df7651fb46f623e0bbcf43b67f7b75",
+    "version":  "0.5.14",
+    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.14/Cafe88-POS-update-0.5.14.zip",
+    "sha256":  "f35b791b00c02d9aeb1602fb8298d7912711d22c84c332cc95a0b1b1fb04b003",
     "required":  false,
     "notes":  [
+                  "Cafe88 POS 0.5.14",
+                  "SnelStart grootboek- en dagboekinstellingen worden per applicatiesessie in geheugen gecachet",
+                  "Rapportexports en het instellingenmenu lezen daardoor niet telkens opnieuw dezelfde SnelStart-configuratie uit SQLite",
+                  "Opslaan en herstellen naar standaardwaarden werkt de sessiesnapshot direct bij",
+                  "Regressietests controleren één repository-load voor herhaalde reads en directe cache-update na opslaan",
                   "Cafe88 POS 0.5.13",
                   "De centrale updatebron wordt per applicatiesessie in geheugen gecachet",
                   "Core-updatecontroles en modulecontroles lezen daardoor niet telkens opnieuw update_settings uit SQLite",
