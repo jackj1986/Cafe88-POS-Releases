@@ -1,9 +1,15 @@
 {
-    "version":  "0.5.16",
-    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.16/Cafe88-POS-update-0.5.16.zip",
-    "sha256":  "105139d62e34ab21acef770d7c72cc47a6592f60e777e4dd1014c9771663a81f",
+    "version":  "0.5.17",
+    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.17/Cafe88-POS-update-0.5.17.zip",
+    "sha256":  "8b95ff8e14bf85dfab0372fcd0e9a33ec110a469667a900b43d680b19c5ee29c",
     "required":  false,
     "notes":  [
+                  "Cafe88 POS 0.5.17",
+                  "Recente klanten laden de actieve klantenlijst nu één keer per refresh",
+                  "Open bonnen worden daarna via een lokale klant-id-index gevalideerd in plaats van per bon opnieuw alle klanten uit SQLite te lezen",
+                  "Dit verwijdert een extra volledige klantquery voor iedere open klantbon zonder de sortering of saldo-opbouw te wijzigen",
+                  "Regressietest bewaakt dat de actieve klantenlijst exact één keer wordt geladen en de volledige klantenlijst niet meer nodig is",
+                  "Full-CI #753 is groen; deze publicatie gebruikt de geteste 0.5.17-code",
                   "Cafe88 POS 0.5.16",
                   "Betalingslijsten laden gekoppelde bonnummers nu rechtstreeks mee in dezelfde SQLite-query",
                   "findAll, findByDate en findByCustomerId vermijden daardoor de eerdere extra query per betaling",
