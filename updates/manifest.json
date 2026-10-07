@@ -1,9 +1,15 @@
 {
-    "version":  "0.4.3.130",
-    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.4.3.130/Cafe88-POS-update-0.4.3.130.zip",
-    "sha256":  "58ba29c03b46c2ce821344fb25a803aec2ea75a7b84d2c5d9b76de684dac3d79",
+    "version":  "0.4.3.131",
+    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.4.3.131/Cafe88-POS-update-0.4.3.131.zip",
+    "sha256":  "8f8519440d4fed3fd5338d6d93cd7cc44cf22b360d40a86a32f6ebd01272513c",
     "required":  false,
     "notes":  [
+                  "Cafe88 POS 0.4.3.131",
+                  "De pending module-installatie controleert nu ook de gekopieerde tijdelijke doel-JAR opnieuw tegen de bij staging vastgelegde SHA-256",
+                  "De bestaande module wordt pas verwijderd nadat de bytes in module-naam.jar.new exact overeenkomen met de vertrouwde pending hash",
+                  "Hiermee kan beschadiging of wijziging tijdens de kopie van pending naar het uiteindelijke modules-doel niet ongemerkt worden toegepast",
+                  "Dezelfde SHA-256 validatiehelper wordt gebruikt voor zowel het pending pakket als de tijdelijke doelkopie",
+                  "Regressietests bewaken dat een identieke kopie wordt geaccepteerd en een na kopiëren gewijzigde kopie wordt geweigerd",
                   "Cafe88 POS 0.4.3.130",
                   "Pending externe module-installaties krijgen nu bij staging een SHA-256 sidecar van de daadwerkelijk gestagede JAR",
                   "Bij de volgende applicatiestart wordt die SHA-256 opnieuw berekend vóór metadata-, versie- en installatieverwerking",
