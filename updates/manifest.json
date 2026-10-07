@@ -1,9 +1,15 @@
 {
-    "version":  "0.5.36",
-    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.36/Cafe88-POS-update-0.5.36.zip",
-    "sha256":  "e8b3480fbc0f97864e937de121c51f0b87e80a69509d72de2d252e8ac27b2357",
+    "version":  "0.5.37",
+    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.37/Cafe88-POS-update-0.5.37.zip",
+    "sha256":  "e7710189fec21ef755fbb4a2aebfdf27a03cef2a3aa49b862688fddb9ec49971",
     "required":  false,
     "notes":  [
+                  "Cafe88 POS 0.5.37",
+                  "Voorraadinstellingen bewaren de actieve verpakkingen van het geselecteerde voorraadproduct nu als lokale snapshot",
+                  "Pakketknoppen en pakketbeheer gebruiken dezelfde geladen lijst in plaats van ieder opnieuw de service en SQLite aan te spreken",
+                  "Na toevoegen wijzigen of verwijderen wordt de snapshot één keer opnieuw geladen en door beide weergaven hergebruikt",
+                  "Openen van Verpakkingen beheren veroorzaakt daardoor geen extra databasequery als de pakketknoppen al zijn opgebouwd",
+                  "Full-CI #794 is groen; deze publicatie gebruikt de geteste 0.5.37-code",
                   "Cafe88 POS 0.5.36",
                   "Klantenbeheer bouwt bij refresh één ID-naar-naam-index voor klantstatussen",
                   "Samengevoegde klanten zoeken hun doelnaam daardoor niet langer telkens opnieuw door de volledige klantenlijst",
