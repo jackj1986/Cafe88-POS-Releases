@@ -1,9 +1,14 @@
 {
-    "version":  "0.5.8",
-    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.8/Cafe88-POS-update-0.5.8.zip",
-    "sha256":  "d08ab326ee4059c4081805075a24bcff6fdc8814edf96a1a440a53c0504b9b76",
+    "version":  "0.5.9",
+    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.9/Cafe88-POS-update-0.5.9.zip",
+    "sha256":  "dad08f495fa121ee79aa9ae7c54d5c9cff71bdeee513d43379693d6fa13f0d7a",
     "required":  false,
     "notes":  [
+                  "Cafe88 POS 0.5.9",
+                  "De actuele BTW-instellingen worden per applicatiesessie in geheugen gecachet",
+                  "Nieuwe verkopen lezen daardoor lage en hoge BTW-tarieven niet telkens opnieuw uit business_settings",
+                  "Opslaan en herstellen van BTW-tarieven werkt de sessiesnapshot direct bij zodat nieuwe verkopen meteen het nieuwe tarief gebruiken",
+                  "Regressietests controleren één repository-load voor meerdere tariefchecks en directe cache-update na opslaan",
                   "Cafe88 POS 0.5.8",
                   "De geselecteerde bonprinter wordt per applicatiesessie in geheugen gecachet",
                   "Bonnen en herdrukken lezen daardoor niet telkens opnieuw printer_naam uit business_settings",
