@@ -1,9 +1,15 @@
 {
-    "version":  "0.5.1",
-    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.1/Cafe88-POS-update-0.5.1.zip",
-    "sha256":  "6fa2f13ef9ee26b590ccaa71a81edf73f6f351c7b6f15ed3f5fadadd121d4fa0",
+    "version":  "0.5.2",
+    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.2/Cafe88-POS-update-0.5.2.zip",
+    "sha256":  "0d11cf70e0a65ee08d4b03eb8ed50d4751126ce65d82894cae961548bdacf670",
     "required":  false,
     "notes":  [
+                  "Cafe88 POS 0.5.2",
+                  "OpenReceiptsPanel.fxml en CashWithdrawalPane.fxml worden niet meer tijdens iedere kassastart geladen",
+                  "Open bonnen/Betalingen en Geld pinnen worden pas bij de eerste keer openen opgebouwd en daarna hergebruikt",
+                  "De bestaande refresh van Open bonnen blijft direct na de eerste lazy load uitgevoerd",
+                  "Klantenmodule-koppelingen en de klantenkeuze voor Geld pinnen worden na de eerste load opnieuw met de actuele modulestatus gesynchroniseerd",
+                  "Nieuwe JavaFX-regressietest controleert dat beide verborgen schermen hun lazy-loadcallback uitvoeren voordat ze worden getoond",
                   "Cafe88 POS 0.5.1",
                   "ProductEditor.fxml en ProductManagement.fxml worden niet meer tijdens iedere kassastart geladen",
                   "Beide beheerweergaven worden pas bij de eerste keer openen opgebouwd en daarna hergebruikt",
