@@ -1,9 +1,14 @@
 {
-    "version":  "0.5.6",
-    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.6/Cafe88-POS-update-0.5.6.zip",
-    "sha256":  "aed8c51a6d0f25f44b834a42a85dbac67a35a26adc32c6c9af3ebbe03292e0a5",
+    "version":  "0.5.7",
+    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.7/Cafe88-POS-update-0.5.7.zip",
+    "sha256":  "88641331a14027d7a4af47f2c5aed2fa2512211b49c3bde02adf16e9ddab17e6",
     "required":  false,
     "notes":  [
+                  "Cafe88 POS 0.5.7",
+                  "Algemene POS-instellingen worden per applicatiesessie in geheugen gecachet",
+                  "Startupchecks voor bonprinten, kassalade, fullscreen en snelle klanten lezen daardoor niet telkens opnieuw business_settings",
+                  "Alle save-routes werken de sessiesnapshot direct bij zodat wijzigingen onmiddellijk actief blijven",
+                  "Regressietests controleren één repository-load voor meerdere getters en directe cache-update na opslaan",
                   "Cafe88 POS 0.5.6",
                   "De core-database krijgt na een volledig geslaagde schema-initialisatie een expliciet migratiecheckpoint",
                   "Bestaande installaties zonder checkpoint doorlopen alle vertrouwde schema- en compatibiliteitsmigraties nog één keer",
