@@ -1,9 +1,15 @@
 {
-    "version":  "0.5.12",
-    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.12/Cafe88-POS-update-0.5.12.zip",
-    "sha256":  "0c88c50c708bb23dc336d472e4daff0453c3534741bc3a577be9bcd4bb4c7b28",
+    "version":  "0.5.13",
+    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.13/Cafe88-POS-update-0.5.13.zip",
+    "sha256":  "c6c349010d3256cbea758602ea7608d818df7651fb46f623e0bbcf43b67f7b75",
     "required":  false,
     "notes":  [
+                  "Cafe88 POS 0.5.13",
+                  "De centrale updatebron wordt per applicatiesessie in geheugen gecachet",
+                  "Core-updatecontroles en modulecontroles lezen daardoor niet telkens opnieuw update_settings uit SQLite",
+                  "De legacy cafe88.nl-waarde wordt nog steeds naar de directe GitHub-updatebron genormaliseerd",
+                  "saveUpdateSite() werkt de genormaliseerde sessiesnapshot direct bij",
+                  "Regressietests controleren één repository-load en directe cache-update na opslaan",
                   "Cafe88 POS 0.5.12",
                   "Backupinstellingen worden per applicatiesessie in geheugen gecachet",
                   "De automatische backupworker leest daardoor niet bij iedere controle opnieuw dezelfde business_settings-velden uit SQLite",
