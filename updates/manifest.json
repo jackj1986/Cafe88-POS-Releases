@@ -1,9 +1,15 @@
 {
-    "version":  "0.5.2",
-    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.2/Cafe88-POS-update-0.5.2.zip",
-    "sha256":  "0d11cf70e0a65ee08d4b03eb8ed50d4751126ce65d82894cae961548bdacf670",
+    "version":  "0.5.3",
+    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.3/Cafe88-POS-update-0.5.3.zip",
+    "sha256":  "007eb81363283ac4dfc78f2b5edbe986b26a6d7e27ba51e3f2e16f6d41813138",
     "required":  false,
     "notes":  [
+                  "Cafe88 POS 0.5.3",
+                  "De startupcontrole of er al producten bestaan laadt niet langer de volledige producttabel",
+                  "SQLite gebruikt nu SELECT 1 FROM products LIMIT 1 voor deze controle",
+                  "ProductService exposeert hiervoor een lichte heeftProducten()-route",
+                  "ProductRepository behoudt een compatibele default voor test- en alternatieve implementaties",
+                  "Dit voorkomt onnodige Product-objecten en sorteerwerk tijdens iedere kassastart, vooral merkbaar op tragere kassahardware",
                   "Cafe88 POS 0.5.2",
                   "OpenReceiptsPanel.fxml en CashWithdrawalPane.fxml worden niet meer tijdens iedere kassastart geladen",
                   "Open bonnen/Betalingen en Geld pinnen worden pas bij de eerste keer openen opgebouwd en daarna hergebruikt",
