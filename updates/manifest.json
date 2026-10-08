@@ -1,9 +1,14 @@
 {
-    "version":  "0.5.120",
-    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.120/Cafe88-POS-update-0.5.120.zip",
-    "sha256":  "ff52d3ffb60143a451998fe7946725a3e790f23018654ed5ca3b36b42b194969",
+    "version":  "0.5.121",
+    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.121/Cafe88-POS-update-0.5.121.zip",
+    "sha256":  "6d62018d46d6e731cf360f7fd9f894e773b6b39bd1fed524e6d0e822ce47a675",
     "required":  false,
     "notes":  [
+                  "Cafe88 POS 0.5.121",
+                  "Voegt een geïsoleerde regressietest toe die een echte SQLite-migratiefout veroorzaakt tijdens databaseherstel",
+                  "Controleert dat de herstelprocedure de oorspronkelijke administratie terugzet vanuit de veiligheidsbackup en de fout kenbaar maakt",
+                  "De bestaande productiecode en herstelstappen blijven ongewijzigd",
+                  "Full-CI #37780448796 is groen; deze publicatie gebruikt de geteste 0.5.121-code",
                   "Cafe88 POS 0.5.120",
                   "Databaseherstel zet na een mislukte schema-initialisatie automatisch de oorspronkelijke database terug vanuit de veiligheidsbackup",
                   "De herstelverbinding wordt eerst gesloten en terugzetting gebeurt binnen exclusieve onderhoudsmodus",
