@@ -1,9 +1,14 @@
 {
-    "version":  "0.5.117",
-    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.117/Cafe88-POS-update-0.5.117.zip",
-    "sha256":  "e33b1083a274e5d0fdf4a09eb47fee67e69dada84b43b7d5eb642b1a334bffe4",
+    "version":  "0.5.118",
+    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.118/Cafe88-POS-update-0.5.118.zip",
+    "sha256":  "498b7054d397b82f308d7c7c677420789cd273a6566f0f4c492654a9d9817180",
     "required":  false,
     "notes":  [
+                  "Cafe88 POS 0.5.118",
+                  "Voegt zes geïsoleerde regressietests toe voor Z-afslagbonselectie, datumgrenzen, dubbele bon-ID\u0027s en historische afslagen",
+                  "Controleert ook dat een reeds afgesloten bon niet opnieuw geselecteerd of opgeslagen kan worden",
+                  "De Z-afslagdatabase gebruikt in de tests een aparte tijdelijke SQLite-verbinding; de normale productieverbinding blijft ongewijzigd",
+                  "Full-CI #37776324495 is groen; deze publicatie gebruikt de geteste 0.5.118-code",
                   "Cafe88 POS 0.5.117",
                   "Vereenvoudigt de binnenste bon-ID-indexeringslus voor Z-afslagen zonder verandering van de indexlogica",
                   "De eerste gekoppelde bon per ID blijft bepalend; selectie en validaties blijven gelijk",
