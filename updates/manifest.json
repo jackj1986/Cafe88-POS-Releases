@@ -1,9 +1,13 @@
 {
-    "version":  "0.5.116",
-    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.116/Cafe88-POS-update-0.5.116.zip",
-    "sha256":  "052423712c7930f8d32b330a5d705126836271ba80ba4a02bc4269f1a1e707f7",
+    "version":  "0.5.117",
+    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.117/Cafe88-POS-update-0.5.117.zip",
+    "sha256":  "e33b1083a274e5d0fdf4a09eb47fee67e69dada84b43b7d5eb642b1a334bffe4",
     "required":  false,
     "notes":  [
+                  "Cafe88 POS 0.5.117",
+                  "Vereenvoudigt de binnenste bon-ID-indexeringslus voor Z-afslagen zonder verandering van de indexlogica",
+                  "De eerste gekoppelde bon per ID blijft bepalend; selectie en validaties blijven gelijk",
+                  "Full-CI #37770641806 is groen; deze publicatie gebruikt de geteste 0.5.117-code",
                   "Cafe88 POS 0.5.116",
                   "De tijdelijke bon-ID-index reserveert nu voldoende HashMap-capaciteit voor de standaard loadfactor",
                   "Dat voorkomt een interne herverdeling tijdens het opbouwen van grotere Z-afslagselecties",
