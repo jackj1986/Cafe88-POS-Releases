@@ -1,9 +1,14 @@
 {
-    "version":  "0.5.128",
-    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.128/Cafe88-POS-update-0.5.128.zip",
-    "sha256":  "3452b3eb5f8ae611a4ffad2c17b74966800337ba725b127325a671bcbf4e7068",
+    "version":  "0.5.129",
+    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.129/Cafe88-POS-update-0.5.129.zip",
+    "sha256":  "a1ce21364ac919da289a118ec552ad63a4dcbf7ac9566ce8ae47de52d329929a",
     "required":  false,
     "notes":  [
+                  "Cafe88 POS 0.5.129",
+                  "Automatische dagbackups negeren voortaan herstelveiligheidskopieën (-restore-safety) bij selectie van de bestaande dagbackup",
+                  "Herstelveiligheidskopieën blijven bewaard en zichtbaar bij handmatig herstel, maar verhinderen nooit het maken van een normale dagelijkse backup",
+                  "Nieuwe tests controleren dagselectie met alleen veiligheidskopieën, voorkeur voor normale backups en automatische backup die maximaal éénmaal per dag wordt gemaakt",
+                  "Full-CI #37793489176 is groen; deze publicatie gebruikt de geteste 0.5.129-code",
                   "Cafe88 POS 0.5.128",
                   "Veiligheidsbackups van vóór een handmatig databaseherstel krijgen een herkenbare -restore-safety naam",
                   "De automatische dagelijkse, wekelijkse en maandelijkse retentie verwijdert deze herstelveiligheidskopieën niet",
