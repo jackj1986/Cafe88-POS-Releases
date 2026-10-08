@@ -1,9 +1,15 @@
 {
-    "version":  "0.5.127",
-    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.127/Cafe88-POS-update-0.5.127.zip",
-    "sha256":  "69adca375ea107c6fa0b7ada607925a1a14643487161a739e60b025e9a282ef8",
+    "version":  "0.5.128",
+    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.128/Cafe88-POS-update-0.5.128.zip",
+    "sha256":  "3452b3eb5f8ae611a4ffad2c17b74966800337ba725b127325a671bcbf4e7068",
     "required":  false,
     "notes":  [
+                  "Cafe88 POS 0.5.128",
+                  "Veiligheidsbackups van vóór een handmatig databaseherstel krijgen een herkenbare -restore-safety naam",
+                  "De automatische dagelijkse, wekelijkse en maandelijkse retentie verwijdert deze herstelveiligheidskopieën niet",
+                  "Regressietests controleren behoud na reguliere backups, meerdere restores in dezelfde seconde en oudere herstelveiligheidskopieën",
+                  "Gewone databasebackups blijven onder de bestaande retentieregels vallen",
+                  "Full-CI #37791876993 is groen; deze publicatie gebruikt de geteste 0.5.128-code",
                   "Cafe88 POS 0.5.127",
                   "Beschermt databaseherstel tegen technisch geldige SQLite-bestanden zonder Cafe88-kernadministratie",
                   "Verifieert products- en receipts-tabellen na integrity_check en voor de exclusieve onderhoudsmodus en de veiligheidsbackup",
