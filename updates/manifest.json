@@ -1,9 +1,15 @@
 {
-    "version":  "0.5.123",
-    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.123/Cafe88-POS-update-0.5.123.zip",
-    "sha256":  "0ffa4e73188393d3efe537e3360f862d93037cc9d774d12f66071d4cfd54e219",
+    "version":  "0.5.124",
+    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.124/Cafe88-POS-update-0.5.124.zip",
+    "sha256":  "c03f97651bba606dbc0e6a965d76ddef34d6868518c732dc36d6eddeba2dd4e2",
     "required":  false,
     "notes":  [
+                  "Cafe88 POS 0.5.124",
+                  "Voegt twee volledige DatabaseManager-initialisatie-integratietests toe op geïsoleerde SQLite-bestanden",
+                  "Test de migratie van een historische product- en moduleconfiguratie met behoud van verkoopproducten, bonnen, betalingen en moduleinstellingen",
+                  "Test idempotent herstarten, het core-schemacheckpoint en het aanmaken van een verse database",
+                  "Voegt alleen een interne testtoegang voor een expliciete databaseverbinding toe; productie blijft de bestaande globale verbinding gebruiken",
+                  "Full-CI #37785251078 is groen; deze publicatie gebruikt de geteste 0.5.124-code",
                   "Cafe88 POS 0.5.123",
                   "Voegt twee end-to-end regressietests toe die de volledige DatabaseBackupService.restoreBackup-cyclus uitvoeren op een tijdelijke SQLite-database",
                   "Controleert behoud van producten, bonnen, betaalgegevens, klanten, modules en de veiligheidsbackup",
