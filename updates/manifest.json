@@ -1,9 +1,14 @@
 {
-    "version":  "0.5.112",
-    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.112/Cafe88-POS-update-0.5.112.zip",
-    "sha256":  "fa7ae77e19e90087f875cbe669912c79202202e4aacd7e2c6d569e4bdf5371ee",
+    "version":  "0.5.113",
+    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.113/Cafe88-POS-update-0.5.113.zip",
+    "sha256":  "0556b2cd50f9e72813ae7920332a1ae9eb51aa91c5d4a4204fc2264ab86763f2",
     "required":  false,
     "notes":  [
+                  "Cafe88 POS 0.5.113",
+                  "Reconstructie van historische Z-afslagbonnen reserveert de exacte lijstcapaciteit vooraf",
+                  "De selectie verwerkt nog steeds iedere oorspronkelijke bon-ID en behoudt duplicaten en bestaande tijd-/ID-sortering",
+                  "Dit voorkomt meerdere ArrayList-groeistappen bij grotere historische Z-afslagen zonder functionele verandering",
+                  "Full-CI #37766504433 is groen; deze publicatie gebruikt de geteste 0.5.113-code",
                   "Cafe88 POS 0.5.112",
                   "Gerichte Z-afslagselecties met bon-ID\u0027s valideren betaalde bonnen zonder voorafgaande sortering",
                   "De expliciete bonselectie sorteert eenmaal aan het einde en vermijdt een dubbele sortering van dezelfde subset",
