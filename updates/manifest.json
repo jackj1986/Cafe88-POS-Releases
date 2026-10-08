@@ -1,9 +1,15 @@
 {
-    "version":  "0.5.111",
-    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.111/Cafe88-POS-update-0.5.111.zip",
-    "sha256":  "ed20672198a86afccf04610a545022c1426bface93724c2d46dc497644246401",
+    "version":  "0.5.112",
+    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.112/Cafe88-POS-update-0.5.112.zip",
+    "sha256":  "fa7ae77e19e90087f875cbe669912c79202202e4aacd7e2c6d569e4bdf5371ee",
     "required":  false,
     "notes":  [
+                  "Cafe88 POS 0.5.112",
+                  "Gerichte Z-afslagselecties met bon-ID\u0027s valideren betaalde bonnen zonder voorafgaande sortering",
+                  "De expliciete bonselectie sorteert eenmaal aan het einde en vermijdt een dubbele sortering van dezelfde subset",
+                  "Volledige historische overzichten behouden hun bestaande tijd- en ID-sortering",
+                  "Bestaande validaties, foutmeldingen en duplicaatverwerking blijven behouden",
+                  "Full-CI #37765480246 is groen; deze publicatie gebruikt de geteste 0.5.112-code",
                   "Cafe88 POS 0.5.111",
                   "Z-afslagbonbereik wordt vóór het kopiëren van de selectie gecontroleerd op al afgeslagen bonnen",
                   "Bij een ongeldig bereik ontstaat daardoor geen onnodige tijdelijke selectielijst",
