@@ -1,9 +1,15 @@
 {
-    "version":  "0.5.113",
-    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.113/Cafe88-POS-update-0.5.113.zip",
-    "sha256":  "0556b2cd50f9e72813ae7920332a1ae9eb51aa91c5d4a4204fc2264ab86763f2",
+    "version":  "0.5.114",
+    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.114/Cafe88-POS-update-0.5.114.zip",
+    "sha256":  "e21c562a55e1462ecba99584e2596e49f5fccfba49527e18c6c95296795e4d57",
     "required":  false,
     "notes":  [
+                  "Cafe88 POS 0.5.114",
+                  "De tijdelijke bon-ID-index voor gerichte Z-afslagselecties gebruikt een vooraf gedimensioneerde HashMap",
+                  "De index wordt uitsluitend op bon-ID opgezocht; invoegvolgorde is niet nodig",
+                  "Dit vermijdt LinkedHashMap-administratie en beperkt herverdeling van de tabel bij grotere selecties",
+                  "De eerste match per ID, bonvolgorde en bestaande validatie blijven ongewijzigd",
+                  "Full-CI #37767551187 is groen; deze publicatie gebruikt de geteste 0.5.114-code",
                   "Cafe88 POS 0.5.113",
                   "Reconstructie van historische Z-afslagbonnen reserveert de exacte lijstcapaciteit vooraf",
                   "De selectie verwerkt nog steeds iedere oorspronkelijke bon-ID en behoudt duplicaten en bestaande tijd-/ID-sortering",
