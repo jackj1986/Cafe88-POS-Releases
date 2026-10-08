@@ -1,9 +1,14 @@
 {
-    "version":  "0.5.110",
-    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.110/Cafe88-POS-update-0.5.110.zip",
-    "sha256":  "533783dd3c74d0a235f06cf78932184b1bc7b43702b3ee44c1b1bc87245e3ea1",
+    "version":  "0.5.111",
+    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.111/Cafe88-POS-update-0.5.111.zip",
+    "sha256":  "ed20672198a86afccf04610a545022c1426bface93724c2d46dc497644246401",
     "required":  false,
     "notes":  [
+                  "Cafe88 POS 0.5.111",
+                  "Z-afslagbonbereik wordt vóór het kopiëren van de selectie gecontroleerd op al afgeslagen bonnen",
+                  "Bij een ongeldig bereik ontstaat daardoor geen onnodige tijdelijke selectielijst",
+                  "Bij geldige bereiken blijven volgorde, bonnen, foutmeldingen en grenscontroles ongewijzigd",
+                  "Full-CI #37764369675 is groen; deze publicatie gebruikt de geteste 0.5.111-code",
                   "Cafe88 POS 0.5.110",
                   "Bij Z-afslagselectie tussen eerste en laatste bon-ID worden beide grenzen in één doorgang gezocht",
                   "De eerdere twee afzonderlijke lineaire zoekrondes vervallen; de zoekronde stopt zodra beide grenzen gevonden zijn",
