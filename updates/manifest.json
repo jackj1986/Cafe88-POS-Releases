@@ -1,9 +1,15 @@
 {
-    "version":  "0.5.125",
-    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.125/Cafe88-POS-update-0.5.125.zip",
-    "sha256":  "672181f6f78a7aa8b4740c0f17cd5e31864e8224876093b0412d2671285b4868",
+    "version":  "0.5.126",
+    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.126/Cafe88-POS-update-0.5.126.zip",
+    "sha256":  "5a62884c5962717692a9d401e411285ace07242bd48b43291a850f55eebefd94",
     "required":  false,
     "notes":  [
+                  "Cafe88 POS 0.5.126",
+                  "Twee extra volledige databasehersteltests voeren de echte DatabaseManager-initialisatie en migratie uit op uitsluitend tijdelijke SQLite-databases",
+                  "Controleert behoud van betaalde bonnen, producten, betalingen en klanten plus het schema-migratiecheckpoint na succesvolle restore",
+                  "Test ook herstelrollback bij een technisch geldige SQLite-database met onbruikbaar kassaschema",
+                  "DatabaseManager biedt de al bestaande expliciete Connection-testoverload voortaan publiek aan; normale app-initialisatie blijft ongewijzigd",
+                  "Full-CI #37788603972 is groen; deze publicatie gebruikt de geteste 0.5.126-code",
                   "Cafe88 POS 0.5.125",
                   "Veiligheidsbackup bij databaseherstel wordt pas na begin van exclusief databaseonderhoud aangemaakt",
                   "Hierdoor kunnen de laatste transacties tussen veiligheidsbackup en onderhoudsvergrendeling niet verloren gaan bij een mislukte restore",
