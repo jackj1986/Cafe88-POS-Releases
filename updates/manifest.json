@@ -1,9 +1,15 @@
 {
-    "version":  "0.5.118",
-    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.118/Cafe88-POS-update-0.5.118.zip",
-    "sha256":  "498b7054d397b82f308d7c7c677420789cd273a6566f0f4c492654a9d9817180",
+    "version":  "0.5.119",
+    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.119/Cafe88-POS-update-0.5.119.zip",
+    "sha256":  "aedc2a581b52c5c17d06286f805cfef5827a879b389ac4f26b68e68d4fe5a519",
     "required":  false,
     "notes":  [
+                  "Cafe88 POS 0.5.119",
+                  "Voegt twee geïsoleerde integratietests toe voor de databasebackup op echte SQLite-bestanden",
+                  "Controleert dat producten, bonnen, betalingen, klant- en modulegegevens na snapshot en herstel behouden blijven",
+                  "Controleert dat een corrupte SQLite-backup wordt geweigerd voordat het actieve bestand wordt vervangen",
+                  "De volledige herstelservice en automatische rollback na een mislukte schema-initialisatie blijven afzonderlijke 1.0-acceptatiepunten",
+                  "Full-CI #37777673797 is groen; deze publicatie gebruikt de geteste 0.5.119-code",
                   "Cafe88 POS 0.5.118",
                   "Voegt zes geïsoleerde regressietests toe voor Z-afslagbonselectie, datumgrenzen, dubbele bon-ID\u0027s en historische afslagen",
                   "Controleert ook dat een reeds afgesloten bon niet opnieuw geselecteerd of opgeslagen kan worden",
