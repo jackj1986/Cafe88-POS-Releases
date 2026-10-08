@@ -1,9 +1,15 @@
 {
-    "version":  "0.5.107",
-    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.107/Cafe88-POS-update-0.5.107.zip",
-    "sha256":  "67bb2e2bd28ed3647e4f1b55f2ca7e1e728f97943c36b7c54082be3a1a1d7a67",
+    "version":  "0.5.108",
+    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.108/Cafe88-POS-update-0.5.108.zip",
+    "sha256":  "e7d462a054157ef7742aeece6cf223991902343b0eea16ee0f5c7c927367bf26",
     "required":  false,
     "notes":  [
+                  "Cafe88 POS 0.5.108",
+                  "Kassadagselectie filtert betaalde bonnen in één stream op geldigheid, tijdvak en Z-afslagstatus",
+                  "De eerdere getNietAfgeslagenBonnen-tussenlijst over de volledige historie wordt niet meer gemaakt",
+                  "Alleen bonnen voor het gevraagde kassadagtijdvak worden gesorteerd voor de rapportage",
+                  "De exclusieve eindtijd en bestaande Z-afslagregels blijven gelijk",
+                  "Full-CI #37761185865 is groen; deze publicatie gebruikt de geteste 0.5.108-code",
                   "Cafe88 POS 0.5.107",
                   "Z-afslagselecties met expliciete bon-ID\u0027s kopiëren niet langer eerst de volledige betaalde bonhistorie",
                   "ReceiptQueryService en DayClosingService gebruiken daarvoor de bestaande gerichte getBetaaldeBonnenByIds-route",
