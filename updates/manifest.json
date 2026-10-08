@@ -1,9 +1,14 @@
 {
-    "version":  "0.5.129",
-    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.129/Cafe88-POS-update-0.5.129.zip",
-    "sha256":  "785a2eeae6d7c21ee5b203f2b48475fc23c0979df7d7c6780d6c248c9e3b2f3f",
+    "version":  "0.5.130",
+    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.130/Cafe88-POS-update-0.5.130.zip",
+    "sha256":  "f101579bf0de652a93f024e95fd2244c03977af0c5358df00b74ec3070ee0b25",
     "required":  false,
     "notes":  [
+                  "Cafe88 POS 0.5.130",
+                  "Databaseherstel beëindigt exclusief onderhoud nu ook als het sluiten van de herstelverbinding een uitzondering geeft",
+                  "Tijdelijke restorebestanden worden alsnog opgeruimd als een onderhoudsafsluiting mislukt",
+                  "Nieuwe integratietest forceert een fout bij het sluiten van de herstelverbinding en controleert dat een tweede restore zonder onderhoudsdeadlock kan starten",
+                  "Full-CI #37795308906 is groen; deze publicatie gebruikt de geteste 0.5.130-code",
                   "Cafe88 POS 0.5.129",
                   "Automatische dagbackups negeren voortaan herstelveiligheidskopieën (-restore-safety) bij selectie van de bestaande dagbackup",
                   "Herstelveiligheidskopieën blijven bewaard en zichtbaar bij handmatig herstel, maar verhinderen nooit het maken van een normale dagelijkse backup",
