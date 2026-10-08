@@ -1,9 +1,14 @@
 {
-    "version":  "0.5.108",
-    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.108/Cafe88-POS-update-0.5.108.zip",
-    "sha256":  "e7d462a054157ef7742aeece6cf223991902343b0eea16ee0f5c7c927367bf26",
+    "version":  "0.5.109",
+    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.109/Cafe88-POS-update-0.5.109.zip",
+    "sha256":  "e7628637b5554cb45ba66c97df8ddde7d5f634a436855acf8c8b6ea3c20566c0",
     "required":  false,
     "notes":  [
+                  "Cafe88 POS 0.5.109",
+                  "Niet-afgeslagen bonnen worden voortaan vóór sortering op Z-afslagstatus gefilterd",
+                  "Geldige betaalde bonnen passeren in één stream in plaats van eerst een volledige gesorteerde tussenlijst aan te maken",
+                  "De tijd- en ID-volgorde van de uiteindelijke selectie blijft ongewijzigd",
+                  "Full-CI #37762302399 is groen; deze publicatie gebruikt de geteste 0.5.109-code",
                   "Cafe88 POS 0.5.108",
                   "Kassadagselectie filtert betaalde bonnen in één stream op geldigheid, tijdvak en Z-afslagstatus",
                   "De eerdere getNietAfgeslagenBonnen-tussenlijst over de volledige historie wordt niet meer gemaakt",
