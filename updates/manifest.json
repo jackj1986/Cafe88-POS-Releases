@@ -1,9 +1,14 @@
 {
-    "version":  "0.5.114",
-    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.114/Cafe88-POS-update-0.5.114.zip",
-    "sha256":  "e21c562a55e1462ecba99584e2596e49f5fccfba49527e18c6c95296795e4d57",
+    "version":  "0.5.115",
+    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.115/Cafe88-POS-update-0.5.115.zip",
+    "sha256":  "74153bfd498e32763ab70a1be22433c54a167786605564086eec99c554335990",
     "required":  false,
     "notes":  [
+                  "Cafe88 POS 0.5.115",
+                  "Historische Z-afslagen met nul of één gekoppelde bon slaan onnodig sorteren over",
+                  "Bij meerdere gekoppelde bonnen blijft de bestaande betaalmoment- en ID-sortering behouden",
+                  "Validatie en foutmeldingen voor ontbrekende betaalde bonnen blijven ongewijzigd",
+                  "Full-CI #37768571520 is groen; deze publicatie gebruikt de geteste 0.5.115-code",
                   "Cafe88 POS 0.5.114",
                   "De tijdelijke bon-ID-index voor gerichte Z-afslagselecties gebruikt een vooraf gedimensioneerde HashMap",
                   "De index wordt uitsluitend op bon-ID opgezocht; invoegvolgorde is niet nodig",
