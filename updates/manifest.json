@@ -1,9 +1,15 @@
 {
-    "version":  "0.5.119",
-    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.119/Cafe88-POS-update-0.5.119.zip",
-    "sha256":  "aedc2a581b52c5c17d06286f805cfef5827a879b389ac4f26b68e68d4fe5a519",
+    "version":  "0.5.120",
+    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.120/Cafe88-POS-update-0.5.120.zip",
+    "sha256":  "ff52d3ffb60143a451998fe7946725a3e790f23018654ed5ca3b36b42b194969",
     "required":  false,
     "notes":  [
+                  "Cafe88 POS 0.5.120",
+                  "Databaseherstel zet na een mislukte schema-initialisatie automatisch de oorspronkelijke database terug vanuit de veiligheidsbackup",
+                  "De herstelverbinding wordt eerst gesloten en terugzetting gebeurt binnen exclusieve onderhoudsmodus",
+                  "Een mislukte rollback geeft expliciet een kritieke fout met verwijzing naar de bewaarde veiligheidsbackup",
+                  "Voegt twee geïsoleerde SQLite-integratietests toe voor geslaagd herstel en rollback na initialisatiefout",
+                  "Full-CI #37778964771 is groen; deze publicatie gebruikt de geteste 0.5.120-code",
                   "Cafe88 POS 0.5.119",
                   "Voegt twee geïsoleerde integratietests toe voor de databasebackup op echte SQLite-bestanden",
                   "Controleert dat producten, bonnen, betalingen, klant- en modulegegevens na snapshot en herstel behouden blijven",
