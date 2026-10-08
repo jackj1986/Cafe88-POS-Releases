@@ -1,9 +1,15 @@
 {
-    "version":  "0.5.122",
-    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.122/Cafe88-POS-update-0.5.122.zip",
-    "sha256":  "c73912dbbdc1ea38919328c5b71918f1a47e68e6768f563370f2c1f81628fd90",
+    "version":  "0.5.123",
+    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.123/Cafe88-POS-update-0.5.123.zip",
+    "sha256":  "0ffa4e73188393d3efe537e3360f862d93037cc9d774d12f66071d4cfd54e219",
     "required":  false,
     "notes":  [
+                  "Cafe88 POS 0.5.123",
+                  "Voegt twee end-to-end regressietests toe die de volledige DatabaseBackupService.restoreBackup-cyclus uitvoeren op een tijdelijke SQLite-database",
+                  "Controleert behoud van producten, bonnen, betaalgegevens, klanten, modules en de veiligheidsbackup",
+                  "Controleert ook dat de volledige service bij een mislukte initialisatie de oorspronkelijke administratie behoudt en de onderhoudsmodus afsluit",
+                  "Maakt uitsluitend de interne databaseonderhouds- en initialisatieacties injecteerbaar voor testen; de productieaanroepen zijn ongewijzigd",
+                  "Full-CI #37783661506 is groen; deze publicatie gebruikt de geteste 0.5.123-code",
                   "Cafe88 POS 0.5.122",
                   "Voegt twee SQLite WAL-integratietests toe voor databasebackups terwijl de kassadatabase in gebruik blijft",
                   "Controleert dat niet-gecheckpointte gecommitteerde betalingen in de back-up zitten, maar latere wijzigingen buiten het snapshot blijven",
