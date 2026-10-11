@@ -1,9 +1,14 @@
 {
-    "version":  "0.5.130",
-    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.130/Cafe88-POS-update-0.5.130.zip",
-    "sha256":  "f101579bf0de652a93f024e95fd2244c03977af0c5358df00b74ec3070ee0b25",
+    "version":  "0.5.131",
+    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.131/Cafe88-POS-update-0.5.131.zip",
+    "sha256":  "392869035355d872c9b42d82f806697c37016595398a881d85c9a0829b458a31",
     "required":  false,
     "notes":  [
+                  "Cafe88 POS 0.5.131",
+                  "Full-CI #38097765232 geslaagd: installer-build, core-only, upgrade, uninstall, reinstall en geïnstalleerde betaal-smoke",
+                  "De volledige Windows x86 installer wordt voortaan als GitHub Release-asset gepubliceerd naast het update-ZIP",
+                  "De installer gebruikt dezelfde gebouwde 32-bits portable runtime; de SHA-256 wordt afzonderlijk in de release beschreven",
+                  "Geen wijziging aan betalingen, kassalogica of SQLite-data",
                   "Cafe88 POS 0.5.130",
                   "Databaseherstel beëindigt exclusief onderhoud nu ook als het sluiten van de herstelverbinding een uitzondering geeft",
                   "Tijdelijke restorebestanden worden alsnog opgeruimd als een onderhoudsafsluiting mislukt",
