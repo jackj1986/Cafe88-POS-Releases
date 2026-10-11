@@ -1,9 +1,15 @@
 {
-    "version":  "0.5.131",
-    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.131/Cafe88-POS-update-0.5.131.zip",
-    "sha256":  "392869035355d872c9b42d82f806697c37016595398a881d85c9a0829b458a31",
+    "version":  "0.5.132",
+    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.132/Cafe88-POS-update-0.5.132.zip",
+    "sha256":  "b69fe6058bb955058cda5709057150c1ee60ebbca3b5fc88af31c27e2ccc8573",
     "required":  false,
     "notes":  [
+                  "Cafe88 POS 0.5.132",
+                  "Full-CI #38153464913 groen; publicatie van geteste 0.5.132-code met Windows x86 installer",
+                  "Hoofdmenu splitst Instellingen en Weergave; Klantenweergave staat onder Weergave",
+                  "Beheer toont apart Klantenbeheer (bestaand klantenbeheerdialoog) en Bonbeheer (bestaand bonnenoverzicht)",
+                  "Rapportage-instellingen en SumUp PIN staan onder Instellingen, niet langer bij Rapportages of Bon \u0026 printer",
+                  "Geen wijziging aan betalingen, omzet, database of bestaande klant- en bongegevens",
                   "Cafe88 POS 0.5.131",
                   "Full-CI #38097765232 geslaagd: installer-build, core-only, upgrade, uninstall, reinstall en geïnstalleerde betaal-smoke",
                   "De volledige Windows x86 installer wordt voortaan als GitHub Release-asset gepubliceerd naast het update-ZIP",
