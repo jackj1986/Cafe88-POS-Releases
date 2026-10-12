@@ -1,15 +1,17 @@
 {
-    "version":  "0.5.137",
-    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.137/Cafe88-POS-update-0.5.137.zip",
-    "sha256":  "a8923da5e6c7213d754e8cb15f71d975b48fe4f19d194d5b8dd5e61ccfb5542b",
+    "version":  "0.5.138",
+    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.138/Cafe88-POS-update-0.5.138.zip",
+    "sha256":  "1a27cc661d1b033aeb1027d5d27469962e3421a173467e8ba073832d24dea356",
     "required":  false,
     "notes":  [
-                  "Cafe88 POS 0.5.137",
-                  "Full-CI #38308661832 geslaagd: 625 JUnit-tests, 0 fouten/overgeslagen; Windows x86 installer, upgrade en betaal-smoketest groen",
-                  "Testoptimalisatie: JUnit-suite wordt per module geteld en in GitHub Actions samengevat zonder artifacts",
-                  "Vereiste core- en optionele modules moeten daadwerkelijk JUnit-tests uitvoeren; NO-SOURCE is nu een CI-fout",
-                  "Bonbeheer-regressietests verplaatst naar de eigen openreceipts-module en uitgebreid met edgecases",
-                  "Producten-module heeft eigen tests voor bedraginvoer, overflow en producteditor-validatie",
-                  "Geen wijziging in kassafunctionaliteit, database of SumUp-gedrag"
+                  "Cafe88 POS 0.5.138",
+                  "Full-CI #38311056662 geslaagd: automatische modules, rollback, Windows x86 install/upgrade en betaal-smoketest",
+                  "Core-update bevat zeven modulepakketten voor eenmalige offline controle bij de nieuwe core-opstart",
+                  "Alleen ingeschakelde en geïnstalleerde modules met bestaande module-JAR worden bijgewerkt",
+                  "Verwijderde, uitgeschakelde en niet-geïnstalleerde modules blijven onveranderd",
+                  "Modulepakketten worden voor inladen van ClassLoaders gevalideerd en met SHA-256 gestaged",
+                  "Bij mislukte core-start worden bestaande app en modulemappen vanuit backup hersteld",
+                  "Nieuwe regressietests voor actieve/inactieve modules en beschadigd updatepakket",
+                  "Geen kassafunctionaliteit of databaseschema gewijzigd"
               ]
 }
