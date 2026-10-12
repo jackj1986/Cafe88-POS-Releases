@@ -1,16 +1,15 @@
 {
-    "version":  "0.5.135",
-    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.135/Cafe88-POS-update-0.5.135.zip",
-    "sha256":  "31f59d848eb1974317d96a27e65907f3f9e88dce020388ee5b7f9630fd179395",
+    "version":  "0.5.136",
+    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.136/Cafe88-POS-update-0.5.136.zip",
+    "sha256":  "e719b4e907baa790ce72415992a911cc34e1d400d0518f4f2fe23bcb867c43e0",
     "required":  false,
     "notes":  [
-                  "Cafe88 POS 0.5.135",
-                  "Full-CI #38210239780 geslaagd: Java-tests, Windows x86 installer, upgrade en betaal-smoketest",
-                  "Bonbeheer verbergt standaard betalingen waarvan alle bonnen definitief in een Z-afslag zitten",
-                  "Via Afgesloten bonnen weergeven zijn deze betalingen in grijs en met een Z-afgesloten-label zichtbaar",
-                  "Bij gemengde betalingen blijft een deels Z-afgeslagen betaling zichtbaar en herkenbaar",
-                  "Betaling ongedaan maken wordt in de details geblokkeerd zodra een gekoppelde bon in een Z-afslag zit",
-                  "Bekijk en printacties blijven beschikbaar; bestaande SQLite Z-afslagkoppelingen worden gebruikt",
-                  "Nieuwe regressietests voor volledige, gedeeltelijke en ontbrekende Z-afsluiting; geen databasewijziging"
+                  "Cafe88 POS 0.5.136",
+                  "Full-CI #38215193894 geslaagd: Gradle-tests, Windows x86, install, upgrade, reinstall en betaal-smoke",
+                  "Bonbeheer toont afzonderlijke vinkjes voor Open bonnen, Betaalde bonnen en Z-afgesloten bonnen",
+                  "Open en geparkeerde bonnen verschijnen in een eigen lijst en kunnen via Wijzigen in de kassa worden geopend",
+                  "Betaalde bonnen blijven alleen bekijken, afdrukken of via de bestaande beveiligde ongedaan-maakroute corrigeren",
+                  "Zoeken en datumfilter werken ook op open bonnen; geen verandering aan omzet, Z-afslagen of database",
+                  "Nieuwe tests voor status, zoeken op bonnummer/klant en datumselectie"
               ]
 }
