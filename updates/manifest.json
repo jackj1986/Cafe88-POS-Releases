@@ -1,15 +1,16 @@
 {
-    "version":  "0.5.139",
-    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.139/Cafe88-POS-update-0.5.139.zip",
-    "sha256":  "5895649012fd68eaea380a904e9bdc88d51abfea0457f18c0a83c2b754959ee3",
+    "version":  "0.5.140",
+    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.140/Cafe88-POS-update-0.5.140.zip",
+    "sha256":  "6af2f9273d743b8cb97b2cb163246fd71ad2fe73b1ccf4c4ae17fabe67e6e350",
     "required":  false,
     "notes":  [
-                  "Cafe88 POS 0.5.139",
-                  "Full-CI #38314864649 geslaagd: zeven module-JARs in core-update-ZIP gecontroleerd, Windows x86 installer, upgrade en proefbetaling groen",
-                  "Controle op alle zeven automatisch meegeleverde modules direct in het echte core-update-ZIP",
-                  "Verifieert module-JARs en embedded module.id / module.version voordat er iets gepubliceerd wordt",
-                  "Full-CI bouwt en controleert voortaan ook een volledig core-update-ZIP met de zeven modules",
-                  "Core-only regressietests blijven mogelijk zonder verplichte module-installatie",
-                  "Geen kassafunctionaliteit, modulekeuzes of databaseschema gewijzigd"
+                  "Cafe88 POS 0.5.140",
+                  "Full-CI #38319889704 geslaagd: 630 JUnit-tests, 0 fouten/overgeslagen; Z-afslag opnameboekingen, SnelStart cash-only, Windows x86 installatie en proefbetaling groen",
+                  "Z-afslag neemt geldopnames op als vaste momentopname van aantal en bedrag",
+                  "PDF toont geld gepind, PIN inclusief opnames en netto contante kasmutatie",
+                  "SnelStart exporteert geld gepind debet PIN en credit Kas, nooit als omzet of BTW",
+                  "Momentopname gebruikt ingestelde kassadagstart en sluitingsmoment",
+                  "Historische Z-afslagen blijven ongewijzigd en Geld pinnen blijft ingeschakeld",
+                  "Regressietests voor nachtgrens, definitieve sluiting en historische momentopname"
               ]
 }
