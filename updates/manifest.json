@@ -1,15 +1,15 @@
 {
-    "version":  "0.5.136",
-    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.136/Cafe88-POS-update-0.5.136.zip",
-    "sha256":  "e719b4e907baa790ce72415992a911cc34e1d400d0518f4f2fe23bcb867c43e0",
+    "version":  "0.5.137",
+    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.137/Cafe88-POS-update-0.5.137.zip",
+    "sha256":  "a8923da5e6c7213d754e8cb15f71d975b48fe4f19d194d5b8dd5e61ccfb5542b",
     "required":  false,
     "notes":  [
-                  "Cafe88 POS 0.5.136",
-                  "Full-CI #38215193894 geslaagd: Gradle-tests, Windows x86, install, upgrade, reinstall en betaal-smoke",
-                  "Bonbeheer toont afzonderlijke vinkjes voor Open bonnen, Betaalde bonnen en Z-afgesloten bonnen",
-                  "Open en geparkeerde bonnen verschijnen in een eigen lijst en kunnen via Wijzigen in de kassa worden geopend",
-                  "Betaalde bonnen blijven alleen bekijken, afdrukken of via de bestaande beveiligde ongedaan-maakroute corrigeren",
-                  "Zoeken en datumfilter werken ook op open bonnen; geen verandering aan omzet, Z-afslagen of database",
-                  "Nieuwe tests voor status, zoeken op bonnummer/klant en datumselectie"
+                  "Cafe88 POS 0.5.137",
+                  "Full-CI #38308661832 geslaagd: 625 JUnit-tests, 0 fouten/overgeslagen; Windows x86 installer, upgrade en betaal-smoketest groen",
+                  "Testoptimalisatie: JUnit-suite wordt per module geteld en in GitHub Actions samengevat zonder artifacts",
+                  "Vereiste core- en optionele modules moeten daadwerkelijk JUnit-tests uitvoeren; NO-SOURCE is nu een CI-fout",
+                  "Bonbeheer-regressietests verplaatst naar de eigen openreceipts-module en uitgebreid met edgecases",
+                  "Producten-module heeft eigen tests voor bedraginvoer, overflow en producteditor-validatie",
+                  "Geen wijziging in kassafunctionaliteit, database of SumUp-gedrag"
               ]
 }
