@@ -1,17 +1,15 @@
 {
-    "version":  "0.5.138",
-    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.138/Cafe88-POS-update-0.5.138.zip",
-    "sha256":  "1a27cc661d1b033aeb1027d5d27469962e3421a173467e8ba073832d24dea356",
+    "version":  "0.5.139",
+    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.139/Cafe88-POS-update-0.5.139.zip",
+    "sha256":  "5895649012fd68eaea380a904e9bdc88d51abfea0457f18c0a83c2b754959ee3",
     "required":  false,
     "notes":  [
-                  "Cafe88 POS 0.5.138",
-                  "Full-CI #38311056662 geslaagd: automatische modules, rollback, Windows x86 install/upgrade en betaal-smoketest",
-                  "Core-update bevat zeven modulepakketten voor eenmalige offline controle bij de nieuwe core-opstart",
-                  "Alleen ingeschakelde en geïnstalleerde modules met bestaande module-JAR worden bijgewerkt",
-                  "Verwijderde, uitgeschakelde en niet-geïnstalleerde modules blijven onveranderd",
-                  "Modulepakketten worden voor inladen van ClassLoaders gevalideerd en met SHA-256 gestaged",
-                  "Bij mislukte core-start worden bestaande app en modulemappen vanuit backup hersteld",
-                  "Nieuwe regressietests voor actieve/inactieve modules en beschadigd updatepakket",
-                  "Geen kassafunctionaliteit of databaseschema gewijzigd"
+                  "Cafe88 POS 0.5.139",
+                  "Full-CI #38314864649 geslaagd: zeven module-JARs in core-update-ZIP gecontroleerd, Windows x86 installer, upgrade en proefbetaling groen",
+                  "Controle op alle zeven automatisch meegeleverde modules direct in het echte core-update-ZIP",
+                  "Verifieert module-JARs en embedded module.id / module.version voordat er iets gepubliceerd wordt",
+                  "Full-CI bouwt en controleert voortaan ook een volledig core-update-ZIP met de zeven modules",
+                  "Core-only regressietests blijven mogelijk zonder verplichte module-installatie",
+                  "Geen kassafunctionaliteit, modulekeuzes of databaseschema gewijzigd"
               ]
 }
