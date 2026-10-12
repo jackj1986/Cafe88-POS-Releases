@@ -1,15 +1,16 @@
 {
-    "version":  "0.5.134",
-    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.134/Cafe88-POS-update-0.5.134.zip",
-    "sha256":  "0b1b07fa6719245ebe2e7297503f8c1d229b0251d3f33e6db50bc47a753ad30e",
+    "version":  "0.5.135",
+    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.135/Cafe88-POS-update-0.5.135.zip",
+    "sha256":  "31f59d848eb1974317d96a27e65907f3f9e88dce020388ee5b7f9630fd179395",
     "required":  false,
     "notes":  [
-                  "Cafe88 POS 0.5.134",
-                  "Full-CI #38169033137 geslaagd: Java-tests, Windows x86-installer, upgrade, reinstall en betaal-smoketest",
-                  "Klantenbeheer opent voortaan in het bestaande Beheer-scherm met terugknop, niet in een apart venster",
-                  "De bestaande klantenlijst, actieve status, historische omzet, openstaande bedragen en beheeracties blijven behouden",
-                  "Grotere touchscreenknoppen en rijen voor 1024x768; een nieuwe klant kan direct in het scherm worden toegevoegd",
-                  "Virtueel toetsenbord wordt bij het verlaten van Klantenbeheer opgeruimd",
-                  "Geen wijzigingen aan betalingslogica, bonnen, database of opgeslagen klantgegevens"
+                  "Cafe88 POS 0.5.135",
+                  "Full-CI #38210239780 geslaagd: Java-tests, Windows x86 installer, upgrade en betaal-smoketest",
+                  "Bonbeheer verbergt standaard betalingen waarvan alle bonnen definitief in een Z-afslag zitten",
+                  "Via Afgesloten bonnen weergeven zijn deze betalingen in grijs en met een Z-afgesloten-label zichtbaar",
+                  "Bij gemengde betalingen blijft een deels Z-afgeslagen betaling zichtbaar en herkenbaar",
+                  "Betaling ongedaan maken wordt in de details geblokkeerd zodra een gekoppelde bon in een Z-afslag zit",
+                  "Bekijk en printacties blijven beschikbaar; bestaande SQLite Z-afslagkoppelingen worden gebruikt",
+                  "Nieuwe regressietests voor volledige, gedeeltelijke en ontbrekende Z-afsluiting; geen databasewijziging"
               ]
 }
