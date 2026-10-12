@@ -1,16 +1,17 @@
 {
-    "version":  "0.5.140",
-    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.140/Cafe88-POS-update-0.5.140.zip",
-    "sha256":  "6af2f9273d743b8cb97b2cb163246fd71ad2fe73b1ccf4c4ae17fabe67e6e350",
+    "version":  "0.5.141",
+    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.141/Cafe88-POS-update-0.5.141.zip",
+    "sha256":  "fcd02168fbf1bd12880f619aaba4e71785b2fb912909955f3e0840262d77ba4e",
     "required":  false,
     "notes":  [
-                  "Cafe88 POS 0.5.140",
-                  "Full-CI #38319889704 geslaagd: 630 JUnit-tests, 0 fouten/overgeslagen; Z-afslag opnameboekingen, SnelStart cash-only, Windows x86 installatie en proefbetaling groen",
-                  "Z-afslag neemt geldopnames op als vaste momentopname van aantal en bedrag",
-                  "PDF toont geld gepind, PIN inclusief opnames en netto contante kasmutatie",
-                  "SnelStart exporteert geld gepind debet PIN en credit Kas, nooit als omzet of BTW",
-                  "Momentopname gebruikt ingestelde kassadagstart en sluitingsmoment",
-                  "Historische Z-afslagen blijven ongewijzigd en Geld pinnen blijft ingeschakeld",
-                  "Regressietests voor nachtgrens, definitieve sluiting en historische momentopname"
+                  "Cafe88 POS 0.5.141",
+                  "Full-CI #38323658478 geslaagd: 633 JUnit-tests, 0 fouten/overgeslagen; Windows x86 installer, smoke-upgrade, proefbetaling en bundels groen",
+                  "Geld pinnen toont een numeriek toetsenbord en OK; het bedrag komt als bonregel op de actieve bon",
+                  "Geld gepind is geen verkoopproduct: geen omzet, BTW of voorraadmutatie",
+                  "De geldopname wordt pas bij geslaagde PIN-betaling in dezelfde database-transactie geregistreerd",
+                  "Open bonnen en klantrekeningen bewaren de financiële regel tot afrekening",
+                  "Z-afslag en SnelStart boeken PIN in en Kas uit zonder dubbele omzet",
+                  "Betaling ongedaan maken draait ook de bijbehorende geldopname terug",
+                  "Historische opnames, rapporten en Z-afslagen blijven ongewijzigd"
               ]
 }
