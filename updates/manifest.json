@@ -1,15 +1,15 @@
 {
-    "version":  "0.5.143",
-    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.143/Cafe88-POS-update-0.5.143.zip",
-    "sha256":  "358bffa482cc887a1795d73dbcf957bd2b346cdf9951589a1c79095aa603779a",
+    "version":  "0.5.144",
+    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.144/Cafe88-POS-update-0.5.144.zip",
+    "sha256":  "9b6fff1ec546fdf0c0e290694eae877f5b7c38cd0c590ad779622180ea537798",
     "required":  false,
     "notes":  [
-                  "Cafe88 POS 0.5.143",
-                  "X-afslag toont uitgegeven contant geld, terugontvangen geld, PIN-aflossingen en openstaande schuldmutaties",
-                  "Z-afslag laat ook zonder betaalde bonnen alle geldopnames zien, met contant uit en PIN in",
-                  "Z-afslag historie toont vastgelegde geldopnames en PIN-aflossingen van de kassadag",
-                  "Weekomzetrapport en PDF tonen geldopnames naast maar niet binnen de omzet",
-                  "Extra regressietests: 55 euro op klant, 66 euro direct PIN betaald, geen omzet of btw",
-                  "Full-CI #38330157856 groen: 640 JUnit-tests, 0 fouten en 0 overgeslagen; Windows-installer, upgrade, uninstall, herinstallatie, core-only en proefbetaling geslaagd."
+                  "Cafe88 POS 0.5.144",
+                  "Z-afslag toont op klant gezette geldopnames als afzonderlijke dagmutatie naast contant uit en PIN ontvangen",
+                  "Ook in de opgeslagen Z-afslaghistorie is de dagmutatie van klantvorderingen zichtbaar",
+                  "Latere betalingen van eerder op klant gezette geldopnames worden als negatieve dagmutatie weergegeven",
+                  "Omzet en btw blijven onveranderd buiten deze kas- en vorderingsmutaties",
+                  "Regressietests dekken 55 euro op klant naast 66 euro direct per PIN en betalingen op een latere kassadag",
+                  "Full-CI #38333263223 (poging 2) groen: Java-tests, Windows-installer, updatebundels, installatie, upgrade, verwijderen, herinstallatie, core-only en proefbetaling geslaagd."
               ]
 }
