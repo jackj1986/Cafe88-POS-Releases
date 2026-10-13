@@ -1,14 +1,15 @@
 {
-    "version":  "0.5.147",
-    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.147/Cafe88-POS-update-0.5.147.zip",
-    "sha256":  "202203493e6680d29f07db2a36efb10616bfeb897bc3ba5fe747fcb6fd6361e6",
+    "version":  "0.5.148",
+    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.148/Cafe88-POS-update-0.5.148.zip",
+    "sha256":  "75744865a69e659c52428b0ca3a49ac7c8464de2c8372802944af42e1e8a2350",
     "required":  false,
     "notes":  [
-                  "Cafe88 POS 0.5.147",
-                  "Snelle klanten: ook een open bon met bedrag 0 houdt de tijdelijke klant bezet",
-                  "Een tweede gast krijgt een nieuw snelklantnummer in plaats van dezelfde klantrekening",
-                  "De klantselectie gebruikt één gerichte batchquery voor saldo en open-bon-status",
-                  "Regressietests voor snelle-klantnummering, nulbedragbonnen en SQLite-klantstatistieken",
-                  "Full-CI #38343731612 groen: Java/Gradle-tests, Windows-installer, updatebundels, installatie, upgrade, verwijderen, herinstallatie, core-only en proefbetaling geslaagd."
+                  "Cafe88 POS 0.5.148",
+                  "Bij klantrekeningen met meerdere open bonnen wordt een aangepast lager PIN-bedrag veilig als korting verdeeld",
+                  "Een korting die groter is dan de laatste bon wordt over eerdere bonnen verdeeld waar mogelijk",
+                  "Geld gepind via PIN blijft volledig verschuldigd en wordt nooit als productkorting verrekend",
+                  "Extra PIN-fooi wordt bij voorkeur bij een verkoopbon geboekt, niet bij een pure geldopname",
+                  "Vóór het afrekenen worden alle bedragen gevalideerd; historische bonnen en de gecombineerde Payment blijven intact",
+                  "Full-CI #38344885868 groen: Java/Gradle-tests, Windows-installer, updatebundels, installatie, upgrade, verwijderen, herinstallatie, core-only en proefbetaling geslaagd."
               ]
 }
