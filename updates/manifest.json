@@ -1,14 +1,14 @@
 {
-    "version":  "0.5.145",
-    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.145/Cafe88-POS-update-0.5.145.zip",
-    "sha256":  "27fdc7f38509655784c9d7a0b5380ede67081e0abc708c6e4f3bc59d05823179",
+    "version":  "0.5.147",
+    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.147/Cafe88-POS-update-0.5.147.zip",
+    "sha256":  "202203493e6680d29f07db2a36efb10616bfeb897bc3ba5fe747fcb6fd6361e6",
     "required":  false,
     "notes":  [
-                  "Cafe88 POS 0.5.145",
-                  "Kascontrole/eigenaaranalyse gebruikt voortaan dezelfde netto kasmutaties als de X- en Z-afslag",
-                  "Geldopnames op klant verlagen het verwachte contante bedrag direct; latere PIN-aflossingen tellen niet opnieuw",
-                  "Terugontvangen contant geld verhoogt de verwachte kas op het moment van retour",
-                  "Regressietests voor 55 euro op klant, 66 euro direct PIN, latere PIN-aflossing en contante retour",
-                  "Full-CI #38342281248 groen: Java/Gradle-tests, Windows-installer en updatebundels, installatie, upgrade, verwijderen, herinstallatie, core-only en proefbetaling geslaagd."
+                  "Cafe88 POS 0.5.147",
+                  "Snelle klanten: ook een open bon met bedrag 0 houdt de tijdelijke klant bezet",
+                  "Een tweede gast krijgt een nieuw snelklantnummer in plaats van dezelfde klantrekening",
+                  "De klantselectie gebruikt één gerichte batchquery voor saldo en open-bon-status",
+                  "Regressietests voor snelle-klantnummering, nulbedragbonnen en SQLite-klantstatistieken",
+                  "Full-CI #38343731612 groen: Java/Gradle-tests, Windows-installer, updatebundels, installatie, upgrade, verwijderen, herinstallatie, core-only en proefbetaling geslaagd."
               ]
 }
