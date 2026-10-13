@@ -1,17 +1,15 @@
 {
-    "version":  "0.5.141",
-    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.141/Cafe88-POS-update-0.5.141.zip",
-    "sha256":  "fcd02168fbf1bd12880f619aaba4e71785b2fb912909955f3e0840262d77ba4e",
+    "version":  "0.5.142",
+    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.142/Cafe88-POS-update-0.5.142.zip",
+    "sha256":  "fc253a925cdbe5cc5bb15353c2999df39d840516920bb81e8ad9d96dede6f77e",
     "required":  false,
     "notes":  [
-                  "Cafe88 POS 0.5.141",
-                  "Full-CI #38323658478 geslaagd: 633 JUnit-tests, 0 fouten/overgeslagen; Windows x86 installer, smoke-upgrade, proefbetaling en bundels groen",
-                  "Geld pinnen toont een numeriek toetsenbord en OK; het bedrag komt als bonregel op de actieve bon",
-                  "Geld gepind is geen verkoopproduct: geen omzet, BTW of voorraadmutatie",
-                  "De geldopname wordt pas bij geslaagde PIN-betaling in dezelfde database-transactie geregistreerd",
-                  "Open bonnen en klantrekeningen bewaren de financiële regel tot afrekening",
-                  "Z-afslag en SnelStart boeken PIN in en Kas uit zonder dubbele omzet",
-                  "Betaling ongedaan maken draait ook de bijbehorende geldopname terug",
-                  "Historische opnames, rapporten en Z-afslagen blijven ongewijzigd"
+                  "Cafe88 POS 0.5.142",
+                  "Geld pinnen vermindert de verwachte kas direct bij OK, ook op een open bon of klantrekening",
+                  "Financiële bewegingen voor uitgegeven geld, PIN-aflossing, betalingsherstel en contante retour blijven auditbaar",
+                  "Bonregel Geld gepind verwijderen vraagt eerst bevestiging dat het geld terug in de kassalade is",
+                  "Kascontrole verwerkt geldopnames minus daadwerkelijke teruggaven op de juiste kassadag",
+                  "Z-afslag en SnelStart bewaren afzonderlijk kas, openstaande schuld en PIN-betalingen zonder dubbele omzet of BTW",
+                  "Full-CI #38326723804: 638 JUnit-tests geslaagd, 0 fouten of overgeslagen; Windows installatie-, upgrade-, herinstallatie-, betaal- en core-only-proeven geslaagd."
               ]
 }
