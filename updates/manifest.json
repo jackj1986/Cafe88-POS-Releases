@@ -1,15 +1,16 @@
 {
-    "version":  "0.5.151",
-    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.151/Cafe88-POS-update-0.5.151.zip",
-    "sha256":  "7b54647adf2426f533bc10521af286feb90a798cc99e3bf473fc6bd34cb6a755",
+    "version":  "0.5.153",
+    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.153/Cafe88-POS-update-0.5.153.zip",
+    "sha256":  "53348be12a38d8da2ae2ebc6251c97556d358b5ad0fc5f0381a732d33ad20e0c",
     "required":  false,
     "notes":  [
-                  "Cafe88 POS 0.5.151",
-                  "Ongedaan maken van een klantbetaling herstelt nu ook de klantrekening als de snelle klant al is opgeruimd",
-                  "De opnieuw geopende bonnen krijgen transactioneel een nieuwe tijdelijke klant en blijven afzonderlijke bonnen",
-                  "Als het oude snelklantnummer inmiddels bij een andere gast hoort, krijgt de herstelde klant een vrij nummer",
-                  "Ongedaan maken en herstel slagen of mislukken samen, zodat betaling en klantkoppeling consistent blijven",
-                  "Regressietests voor hergebruikte snelklantnamen, teruggekoppelde bonnen en onvolledige hersteldata",
-                  "Full-CI #38445268333 groen: alle Java- en databasetests, Windows-installatie, upgrade, herinstallatie, core-only en proefbetaling geslaagd."
+                  "Cafe88 POS 0.5.153",
+                  "PIN-betaalstatus en lokale undo: duidelijke waarschuwing dat de kassa geen SumUp-terugbetaling uitvoert",
+                  "De snelle ↶-knop vraagt bevestiging voordat hij een recente PIN-betaling terugdraait",
+                  "Het betaalhistorie-detail toont bij PIN dezelfde waarschuwing vóór het verwijderen van de betaling",
+                  "Contante betalingen krijgen geen onnodige SumUp-waarschuwing",
+                  "Regressietests voor waarschuwingsteksten van PIN- en contante betalingen",
+                  "PIN-waarschuwingen tonen leesbare witregels op het kassascherm.",
+                  "Full-CI #38449174474 groen: Java- en regressietests, Windows-installer, updatebundels, installatie, upgrade, verwijderen, herinstallatie, core-only en proefbetaling geslaagd."
               ]
 }
