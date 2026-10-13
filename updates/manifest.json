@@ -1,15 +1,14 @@
 {
-    "version":  "0.5.144",
-    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.144/Cafe88-POS-update-0.5.144.zip",
-    "sha256":  "9b6fff1ec546fdf0c0e290694eae877f5b7c38cd0c590ad779622180ea537798",
+    "version":  "0.5.145",
+    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.145/Cafe88-POS-update-0.5.145.zip",
+    "sha256":  "27fdc7f38509655784c9d7a0b5380ede67081e0abc708c6e4f3bc59d05823179",
     "required":  false,
     "notes":  [
-                  "Cafe88 POS 0.5.144",
-                  "Z-afslag toont op klant gezette geldopnames als afzonderlijke dagmutatie naast contant uit en PIN ontvangen",
-                  "Ook in de opgeslagen Z-afslaghistorie is de dagmutatie van klantvorderingen zichtbaar",
-                  "Latere betalingen van eerder op klant gezette geldopnames worden als negatieve dagmutatie weergegeven",
-                  "Omzet en btw blijven onveranderd buiten deze kas- en vorderingsmutaties",
-                  "Regressietests dekken 55 euro op klant naast 66 euro direct per PIN en betalingen op een latere kassadag",
-                  "Full-CI #38333263223 (poging 2) groen: Java-tests, Windows-installer, updatebundels, installatie, upgrade, verwijderen, herinstallatie, core-only en proefbetaling geslaagd."
+                  "Cafe88 POS 0.5.145",
+                  "Kascontrole/eigenaaranalyse gebruikt voortaan dezelfde netto kasmutaties als de X- en Z-afslag",
+                  "Geldopnames op klant verlagen het verwachte contante bedrag direct; latere PIN-aflossingen tellen niet opnieuw",
+                  "Terugontvangen contant geld verhoogt de verwachte kas op het moment van retour",
+                  "Regressietests voor 55 euro op klant, 66 euro direct PIN, latere PIN-aflossing en contante retour",
+                  "Full-CI #38342281248 groen: Java/Gradle-tests, Windows-installer en updatebundels, installatie, upgrade, verwijderen, herinstallatie, core-only en proefbetaling geslaagd."
               ]
 }
