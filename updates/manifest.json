@@ -1,15 +1,15 @@
 {
-    "version":  "0.5.142",
-    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.142/Cafe88-POS-update-0.5.142.zip",
-    "sha256":  "fc253a925cdbe5cc5bb15353c2999df39d840516920bb81e8ad9d96dede6f77e",
+    "version":  "0.5.143",
+    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.143/Cafe88-POS-update-0.5.143.zip",
+    "sha256":  "358bffa482cc887a1795d73dbcf957bd2b346cdf9951589a1c79095aa603779a",
     "required":  false,
     "notes":  [
-                  "Cafe88 POS 0.5.142",
-                  "Geld pinnen vermindert de verwachte kas direct bij OK, ook op een open bon of klantrekening",
-                  "Financiële bewegingen voor uitgegeven geld, PIN-aflossing, betalingsherstel en contante retour blijven auditbaar",
-                  "Bonregel Geld gepind verwijderen vraagt eerst bevestiging dat het geld terug in de kassalade is",
-                  "Kascontrole verwerkt geldopnames minus daadwerkelijke teruggaven op de juiste kassadag",
-                  "Z-afslag en SnelStart bewaren afzonderlijk kas, openstaande schuld en PIN-betalingen zonder dubbele omzet of BTW",
-                  "Full-CI #38326723804: 638 JUnit-tests geslaagd, 0 fouten of overgeslagen; Windows installatie-, upgrade-, herinstallatie-, betaal- en core-only-proeven geslaagd."
+                  "Cafe88 POS 0.5.143",
+                  "X-afslag toont uitgegeven contant geld, terugontvangen geld, PIN-aflossingen en openstaande schuldmutaties",
+                  "Z-afslag laat ook zonder betaalde bonnen alle geldopnames zien, met contant uit en PIN in",
+                  "Z-afslag historie toont vastgelegde geldopnames en PIN-aflossingen van de kassadag",
+                  "Weekomzetrapport en PDF tonen geldopnames naast maar niet binnen de omzet",
+                  "Extra regressietests: 55 euro op klant, 66 euro direct PIN betaald, geen omzet of btw",
+                  "Full-CI #38330157856 groen: 640 JUnit-tests, 0 fouten en 0 overgeslagen; Windows-installer, upgrade, uninstall, herinstallatie, core-only en proefbetaling geslaagd."
               ]
 }
