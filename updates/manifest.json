@@ -1,15 +1,15 @@
 {
-    "version":  "0.5.148",
-    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.148/Cafe88-POS-update-0.5.148.zip",
-    "sha256":  "75744865a69e659c52428b0ca3a49ac7c8464de2c8372802944af42e1e8a2350",
+    "version":  "0.5.149",
+    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.149/Cafe88-POS-update-0.5.149.zip",
+    "sha256":  "f27ce9e30eed525c5bbd6637eb4de7e6bbf6cbbb289b325c157da06dd4e5d9a9",
     "required":  false,
     "notes":  [
-                  "Cafe88 POS 0.5.148",
-                  "Bij klantrekeningen met meerdere open bonnen wordt een aangepast lager PIN-bedrag veilig als korting verdeeld",
-                  "Een korting die groter is dan de laatste bon wordt over eerdere bonnen verdeeld waar mogelijk",
-                  "Geld gepind via PIN blijft volledig verschuldigd en wordt nooit als productkorting verrekend",
-                  "Extra PIN-fooi wordt bij voorkeur bij een verkoopbon geboekt, niet bij een pure geldopname",
-                  "Vóór het afrekenen worden alle bedragen gevalideerd; historische bonnen en de gecombineerde Payment blijven intact",
-                  "Full-CI #38344885868 groen: Java/Gradle-tests, Windows-installer, updatebundels, installatie, upgrade, verwijderen, herinstallatie, core-only en proefbetaling geslaagd."
+                  "Cafe88 POS 0.5.149",
+                  "Na het afrekenen van een klantrekening wordt alleen de zojuist betaalde snelle klant opgeruimd",
+                  "Andere snelle klanten blijven staan, ook als hun oude rekening al volledig betaald is",
+                  "Betaalde bonnen en betalingen houden hun historische klantnaam en blijven beschikbaar voor rapportages",
+                  "Gerichte opruiming gebruikt de bestaande transactionele SQLite-bescherming tegen open bonnen",
+                  "Regressietest voor meerdere betaalde bonnen en betaalhistorie naast een tweede snelle klant",
+                  "Full-CI #38409908898 groen: Java/Gradle-tests, Windows-installer, updatebundels, installatie, upgrade, verwijderen, herinstallatie, core-only en proefbetaling geslaagd."
               ]
 }
