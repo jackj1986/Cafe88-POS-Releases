@@ -1,15 +1,15 @@
 {
-    "version":  "0.5.149",
-    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.149/Cafe88-POS-update-0.5.149.zip",
-    "sha256":  "f27ce9e30eed525c5bbd6637eb4de7e6bbf6cbbb289b325c157da06dd4e5d9a9",
+    "version":  "0.5.151",
+    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.151/Cafe88-POS-update-0.5.151.zip",
+    "sha256":  "7b54647adf2426f533bc10521af286feb90a798cc99e3bf473fc6bd34cb6a755",
     "required":  false,
     "notes":  [
-                  "Cafe88 POS 0.5.149",
-                  "Na het afrekenen van een klantrekening wordt alleen de zojuist betaalde snelle klant opgeruimd",
-                  "Andere snelle klanten blijven staan, ook als hun oude rekening al volledig betaald is",
-                  "Betaalde bonnen en betalingen houden hun historische klantnaam en blijven beschikbaar voor rapportages",
-                  "Gerichte opruiming gebruikt de bestaande transactionele SQLite-bescherming tegen open bonnen",
-                  "Regressietest voor meerdere betaalde bonnen en betaalhistorie naast een tweede snelle klant",
-                  "Full-CI #38409908898 groen: Java/Gradle-tests, Windows-installer, updatebundels, installatie, upgrade, verwijderen, herinstallatie, core-only en proefbetaling geslaagd."
+                  "Cafe88 POS 0.5.151",
+                  "Ongedaan maken van een klantbetaling herstelt nu ook de klantrekening als de snelle klant al is opgeruimd",
+                  "De opnieuw geopende bonnen krijgen transactioneel een nieuwe tijdelijke klant en blijven afzonderlijke bonnen",
+                  "Als het oude snelklantnummer inmiddels bij een andere gast hoort, krijgt de herstelde klant een vrij nummer",
+                  "Ongedaan maken en herstel slagen of mislukken samen, zodat betaling en klantkoppeling consistent blijven",
+                  "Regressietests voor hergebruikte snelklantnamen, teruggekoppelde bonnen en onvolledige hersteldata",
+                  "Full-CI #38445268333 groen: alle Java- en databasetests, Windows-installatie, upgrade, herinstallatie, core-only en proefbetaling geslaagd."
               ]
 }
