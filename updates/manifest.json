@@ -1,16 +1,16 @@
 {
-    "version":  "0.5.153",
-    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.153/Cafe88-POS-update-0.5.153.zip",
-    "sha256":  "53348be12a38d8da2ae2ebc6251c97556d358b5ad0fc5f0381a732d33ad20e0c",
+    "version":  "0.5.154",
+    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.154/Cafe88-POS-update-0.5.154.zip",
+    "sha256":  "19a9ed139cc1ddd0ff45b142ac710d25082c21f227f7cdebf3426bd8bc6476a1",
     "required":  false,
     "notes":  [
-                  "Cafe88 POS 0.5.153",
-                  "PIN-betaalstatus en lokale undo: duidelijke waarschuwing dat de kassa geen SumUp-terugbetaling uitvoert",
-                  "De snelle ↶-knop vraagt bevestiging voordat hij een recente PIN-betaling terugdraait",
-                  "Het betaalhistorie-detail toont bij PIN dezelfde waarschuwing vóór het verwijderen van de betaling",
-                  "Contante betalingen krijgen geen onnodige SumUp-waarschuwing",
-                  "Regressietests voor waarschuwingsteksten van PIN- en contante betalingen",
-                  "PIN-waarschuwingen tonen leesbare witregels op het kassascherm.",
-                  "Full-CI #38449174474 groen: Java- en regressietests, Windows-installer, updatebundels, installatie, upgrade, verwijderen, herinstallatie, core-only en proefbetaling geslaagd."
+                  "Cafe88 POS 0.5.154",
+                  "Bescherm definitief Z-afgeslagen bonnen ook tegen de snelle terugdraaiknop in de core",
+                  "Centrale betaal-undo controleert alle gekoppelde bonnen voor hij een Payment of bon wijzigt",
+                  "Ook oude bonnen zonder Payment-record worden tegen een definitieve Z-afslag gecontroleerd",
+                  "Een gerichte SQLite-query voorkomt dat de hele Z-afslaghistorie bij een controle moet worden geladen",
+                  "Regressietests voor losse en gecombineerde PIN-/contante betalingen, legacy-bonnen en gesloten Z-afslagen",
+                  "Full-CI opnieuw aangevraagd voor 0.5.154 na controle van de bescherming van definitieve Z-afslagen.",
+                  "Full-CI #38581507467 volledig groen op 0.5.154: Java/regressietests, Windows-installer, upgrade, herinstallatie, core-only en proefbetaling."
               ]
 }
