@@ -1,13 +1,13 @@
 {
-    "version":  "0.5.159",
-    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.159/Cafe88-POS-update-0.5.159.zip",
-    "sha256":  "d03b50ea1243d73063b55bae7d4e5899244f9566f35c0ab30e82981cc1f76c1f",
+    "version":  "0.5.160",
+    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.160/Cafe88-POS-update-0.5.160.zip",
+    "sha256":  "b220da07cb077560c2fe982e6233e5c8ed18e62849c91ce5293db5195ee778d6",
     "required":  false,
     "notes":  [
-                  "Cafe88 POS 0.5.159",
-                  "Verberg snelklantknoppen wanneer klantenfunctionaliteit is uitgeschakeld",
-                  "Houd de snelklantenbalk gekoppeld aan de actuele status van het klantenpaneel",
-                  "Toon de knoppen weer na herinschakelen wanneer snelle klanten zijn ingeschakeld",
-                  "Regressietest voor uit- en inschakelen van de klantenfunctionaliteit"
+                  "Cafe88 POS 0.5.160",
+                  "Beperk automatische snelklanten tot Man, Vrouw, Stel, Baard, Groep, Bar en Tafel",
+                  "Voorkom onbedoeld aanmaken van tijdelijke klanten op basis van een willekeurige naam",
+                  "Behoud de bestaande nummering en kassaflow voor alle ondersteunde snelklanten",
+                  "Regressietest voor het afwijzen van onbekende snelklantsoorten"
               ]
 }
