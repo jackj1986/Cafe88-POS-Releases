@@ -1,13 +1,13 @@
 {
-    "version":  "0.5.157",
-    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.157/Cafe88-POS-update-0.5.157.zip",
-    "sha256":  "694fb5bf7b73f757adce91e09513a56ea6b963c68ff6fb46f9a769df1b4e06ea",
+    "version":  "0.5.158",
+    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.158/Cafe88-POS-update-0.5.158.zip",
+    "sha256":  "5a70a599ecb48f38e6d1437d59c4c203f1828e08a366e88e001110d6c0e7dc7e",
     "required":  false,
     "notes":  [
-                  "Cafe88 POS 0.5.157",
-                  "Behoud het touchscreen-toetsenbord wanneer een snelklantknop boven het toetsenbord focus krijgt",
-                  "Voorkom dat focusverlies de toetsenbordcontainer sluit voordat Man, Vrouw of andere snelklantknoppen reageren",
-                  "De normale sluitactie na een geslaagde klantkeuze blijft ongewijzigd",
-                  "JavaFX-regressietest voor focus op een snelklantknop in de vaste toetsenbordcontainer"
+                  "Cafe88 POS 0.5.158",
+                  "Herken uitsluitend canoniek genummerde snelle klanten zoals Man 1 en Vrouw 2",
+                  "Voorkom dat gewone klanten met namen zoals Man +1 of Man 01 automatisch worden opgeruimd",
+                  "Behoud de bestaande snelle klanten met geldige namen en nummers",
+                  "Regressietests beschermen niet-canonieke klantnamen tegen automatische verwijdering"
               ]
 }
