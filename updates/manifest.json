@@ -1,13 +1,13 @@
 {
-    "version":  "0.5.155",
-    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.155/Cafe88-POS-update-0.5.155.zip",
-    "sha256":  "763a5132024df6fad0c1ec5eff75b2ecd9bb22b6b83a07ea82c17ec3206d0f07",
+    "version":  "0.5.156",
+    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.156/Cafe88-POS-update-0.5.156.zip",
+    "sha256":  "cb8368d6bd0d395dbe6daeaa74eb5c4d503ac99f5bbe4ee0281fdced2c8ea731",
     "required":  false,
     "notes":  [
-                  "Cafe88 POS 0.5.155",
-                  "Voorkom dat bij een pure Geld gepind-bon een extra PIN-bedrag als fooi wordt geboekt",
-                  "Controleer ook klantrekeningen met uitsluitend geldopnames voordat bonnen worden betaald",
-                  "Normale geldopnames en fooien op bonnen met verkoop blijven mogelijk",
-                  "Regressietests voor pure geldopnames, meerdere klantbonnen en gecombineerde verkoop met geldopname"
+                  "Cafe88 POS 0.5.156",
+                  "Voorkom dubbele PIN-geldstroom wanneer een oude geldopname wel PAID maar geen ISSUED-event heeft",
+                  "Kasmutaties en definitieve Z-afslagen gebruiken dezelfde veilige legacy-fallback",
+                  "Oude geldopnames zonder gebeurtenissen blijven als directe PIN-opname meetellen",
+                  "Regressietests voor zowel kasoverzicht als Z-afslag bij gemengde legacy- en betaalgebeurtenissen"
               ]
 }
