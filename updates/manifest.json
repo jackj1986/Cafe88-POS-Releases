@@ -1,13 +1,13 @@
 {
-    "version":  "0.5.156",
-    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.156/Cafe88-POS-update-0.5.156.zip",
-    "sha256":  "cb8368d6bd0d395dbe6daeaa74eb5c4d503ac99f5bbe4ee0281fdced2c8ea731",
+    "version":  "0.5.157",
+    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.157/Cafe88-POS-update-0.5.157.zip",
+    "sha256":  "694fb5bf7b73f757adce91e09513a56ea6b963c68ff6fb46f9a769df1b4e06ea",
     "required":  false,
     "notes":  [
-                  "Cafe88 POS 0.5.156",
-                  "Voorkom dubbele PIN-geldstroom wanneer een oude geldopname wel PAID maar geen ISSUED-event heeft",
-                  "Kasmutaties en definitieve Z-afslagen gebruiken dezelfde veilige legacy-fallback",
-                  "Oude geldopnames zonder gebeurtenissen blijven als directe PIN-opname meetellen",
-                  "Regressietests voor zowel kasoverzicht als Z-afslag bij gemengde legacy- en betaalgebeurtenissen"
+                  "Cafe88 POS 0.5.157",
+                  "Behoud het touchscreen-toetsenbord wanneer een snelklantknop boven het toetsenbord focus krijgt",
+                  "Voorkom dat focusverlies de toetsenbordcontainer sluit voordat Man, Vrouw of andere snelklantknoppen reageren",
+                  "De normale sluitactie na een geslaagde klantkeuze blijft ongewijzigd",
+                  "JavaFX-regressietest voor focus op een snelklantknop in de vaste toetsenbordcontainer"
               ]
 }
