@@ -1,13 +1,13 @@
 {
-    "version":  "0.5.161",
-    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.161/Cafe88-POS-update-0.5.161.zip",
-    "sha256":  "70505783387278aed84bff93cc46a4a88dd593eb6c1ef9d0fcc2ae51d1ade582",
+    "version":  "0.5.162",
+    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.162/Cafe88-POS-update-0.5.162.zip",
+    "sha256":  "abaa6f000e005d7d579b931a29f2f6eaaca8b668ddd85bf2ef13cc07c962a027",
     "required":  false,
     "notes":  [
-                  "Cafe88 POS 0.5.161",
-                  "Pas Snelle klantknoppen tonen onmiddellijk toe wanneer POS-instellingen worden opgeslagen",
-                  "Werk het kassascherm en het klantenpaneel bij zonder herstart",
-                  "Ook Standaard herstellen toont de snelklantknoppen direct weer",
-                  "Regressietest voor opslaan en herstellen van de snelklantinstelling"
+                  "Cafe88 POS 0.5.162",
+                  "Voorkom fouten door ontbrekende bonverwijzingen in de klantenoverzichten",
+                  "Sla ontbrekende bonnen veilig over bij de lijst zonder klant en de bonnensnapshot",
+                  "Behoud de bestaande verwerking van geldige open bonnen",
+                  "Regressietest voor klantenoverzichten met ontbrekende bonverwijzingen"
               ]
 }
