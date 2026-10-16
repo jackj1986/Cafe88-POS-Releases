@@ -1,13 +1,13 @@
 {
-    "version":  "0.5.177",
-    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.177/Cafe88-POS-update-0.5.177.zip",
-    "sha256":  "b9d49942fb1a8da6cdb73fc11eb719fbc432b8885c1082300a744a4f1758a6eb",
+    "version":  "0.5.178",
+    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.178/Cafe88-POS-update-0.5.178.zip",
+    "sha256":  "b46a5e4d4ef986635913d12e0b9a1cb88bbd6141672f2cfabef32329b257bf48",
     "required":  false,
     "notes":  [
-                  "Cafe88 POS 0.5.177",
-                  "Tel opgeslagen open bonnen per bon-ID maximaal eenmaal in het overzicht Recente klanten",
-                  "Voorkom een te hoge open-bonnenteller wanneer dezelfde bon dubbel wordt aangeleverd",
-                  "Blijf tijdelijke bonnen zonder opgeslagen ID afzonderlijk tellen",
-                  "Regressietest voor dubbele bon-ID\u0027s, twee echte bonnen en tijdelijke bonnen"
+                  "Cafe88 POS 0.5.178",
+                  "Gebruik ook bij de losse klantsuggestiefunctie de begrensde gecombineerde zoekroutine",
+                  "Voorkom volledige sortering en herhaald lezen van klantnamen bij brede zoekopdrachten",
+                  "Behoud alfabetische volgorde en de ingestelde limiet op zichtbare suggesties",
+                  "Regressietest met honderd klantnamen die ieder slechts eenmaal worden opgevraagd"
               ]
 }
