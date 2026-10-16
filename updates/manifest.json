@@ -1,13 +1,13 @@
 {
-    "version":  "0.5.184",
-    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.184/Cafe88-POS-update-0.5.184.zip",
-    "sha256":  "0324311f448c6ae40544672f69c8bb4cf8885f071274d02c3870a76541a1fbe6",
+    "version":  "0.5.185",
+    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.185/Cafe88-POS-update-0.5.185.zip",
+    "sha256":  "7a62aaa85cd062e11fc37b7bcfb4ca06c071d011c91aab93d6ae55bf46f3ef31",
     "required":  false,
     "notes":  [
-                  "Cafe88 POS 0.5.184",
-                  "Ververs klantsuggesties direct bij het opnieuw openen van de zoekmodus",
-                  "Toon nieuw aangemaakte of verwijderde klanten zonder extra toetsinvoer",
-                  "Behoud de momentopname tijdens het typen, zonder query per letter",
-                  "JavaFX-regressietest voor vernieuwde zoekresultaten bij onveranderde invoer"
+                  "Cafe88 POS 0.5.185",
+                  "Voorkom achterblijvende Man 2 na geannuleerde klantwissel",
+                  "Ruim alleen een nieuwe, niet daadwerkelijk gekozen snelklant op",
+                  "Laat hergebruikte snelle klanten staan en behoud bonveiligheid in SQLite",
+                  "Regressietests voor annuleren, bevestigen en hergebruik van snelle klanten"
               ]
 }
