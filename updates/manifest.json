@@ -1,13 +1,13 @@
 {
-    "version":  "0.5.173",
-    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.173/Cafe88-POS-update-0.5.173.zip",
-    "sha256":  "172a40f5187fbab173bfd81955ab599a94b78948620aa65e3ceea14e2ca3bb81",
+    "version":  "0.5.174",
+    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.174/Cafe88-POS-update-0.5.174.zip",
+    "sha256":  "c89e5f074314b8c668fb9090a240eb1b7f3f43206266f6b2f32f73bfa8249bfa",
     "required":  false,
     "notes":  [
-                  "Cafe88 POS 0.5.173",
-                  "Tel een open bon met geldig klant-ID mee bij de gekoppelde klant, ook als de opgeslagen klantnaam ontbreekt",
-                  "Gebruik de naam van het actuele klantrecord voor Recente klanten",
-                  "Laat werkelijk klantloze bonnen apart in het overzicht zonder klant staan",
-                  "Regressietest voor lege en ontbrekende klantnamen op open bonnen"
+                  "Cafe88 POS 0.5.174",
+                  "Voorkom dat reeds betaalde bonnen als openstaande klantbon meetellen bij een gemengde bonnenlijst",
+                  "Toon betaalde bonnen niet in de lijst met openstaande bonnen zonder klant",
+                  "Behoud openstaande klantbonnen ook wanneer de opgeslagen klantnaam ontbreekt",
+                  "Regressietests voor betaalde bonnen met en zonder klant en open bonnen"
               ]
 }
