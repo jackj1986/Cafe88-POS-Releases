@@ -1,13 +1,13 @@
 {
-    "version":  "0.5.178",
-    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.178/Cafe88-POS-update-0.5.178.zip",
-    "sha256":  "b46a5e4d4ef986635913d12e0b9a1cb88bbd6141672f2cfabef32329b257bf48",
+    "version":  "0.5.179",
+    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.179/Cafe88-POS-update-0.5.179.zip",
+    "sha256":  "1661aa461050e892803c895e536a98cbd1e90a0452a5ec7127c8839063eee02e",
     "required":  false,
     "notes":  [
-                  "Cafe88 POS 0.5.178",
-                  "Gebruik ook bij de losse klantsuggestiefunctie de begrensde gecombineerde zoekroutine",
-                  "Voorkom volledige sortering en herhaald lezen van klantnamen bij brede zoekopdrachten",
-                  "Behoud alfabetische volgorde en de ingestelde limiet op zichtbare suggesties",
-                  "Regressietest met honderd klantnamen die ieder slechts eenmaal worden opgevraagd"
+                  "Cafe88 POS 0.5.179",
+                  "Controleer de status van een bestaande klantnaam in één ronde in plaats van twee",
+                  "Lees en normaliseer iedere klantnaam maximaal eenmaal bij gedeeltelijke overeenkomsten",
+                  "Behoud voorrang van exacte klanten boven gedeeltelijke matches, ook verderop in de lijst",
+                  "Regressietests voor naamopvragingen, exacte matches, lege invoer en ontbrekende klanten"
               ]
 }
