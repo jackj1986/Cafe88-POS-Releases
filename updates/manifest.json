@@ -1,13 +1,13 @@
 {
-    "version":  "0.5.176",
-    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.176/Cafe88-POS-update-0.5.176.zip",
-    "sha256":  "f51a91ce773d7628139f41f9791b10b50bddc4f2ba594122137e917327a7a010",
+    "version":  "0.5.177",
+    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.177/Cafe88-POS-update-0.5.177.zip",
+    "sha256":  "b9d49942fb1a8da6cdb73fc11eb719fbc432b8885c1082300a744a4f1758a6eb",
     "required":  false,
     "notes":  [
-                  "Cafe88 POS 0.5.176",
-                  "Sla bij het opruimen van afgeronde snelle klanten ook open bonnen van nul euro direct over",
-                  "Voorkom onnodige database-verwijdertransacties voor snelklanten met nog een open bon",
-                  "Behoud de transactieve veiligheidscontrole in de repository",
-                  "Regressietest voor open nulbonnen, vrije snelklanten en openstaande saldi"
+                  "Cafe88 POS 0.5.177",
+                  "Tel opgeslagen open bonnen per bon-ID maximaal eenmaal in het overzicht Recente klanten",
+                  "Voorkom een te hoge open-bonnenteller wanneer dezelfde bon dubbel wordt aangeleverd",
+                  "Blijf tijdelijke bonnen zonder opgeslagen ID afzonderlijk tellen",
+                  "Regressietest voor dubbele bon-ID\u0027s, twee echte bonnen en tijdelijke bonnen"
               ]
 }
