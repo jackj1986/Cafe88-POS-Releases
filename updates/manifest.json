@@ -1,13 +1,13 @@
 {
-    "version":  "0.5.165",
-    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.165/Cafe88-POS-update-0.5.165.zip",
-    "sha256":  "bd4de046f1cd9b086f3fda947f2b3852997efa40b03d079b3f618168185d8cda",
+    "version":  "0.5.166",
+    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.166/Cafe88-POS-update-0.5.166.zip",
+    "sha256":  "92c3cd8757e542d83702d7465c44893def6083dfd1cca4ea1e260d545600b6e9",
     "required":  false,
     "notes":  [
-                  "Cafe88 POS 0.5.165",
-                  "Beperk het ophalen van snelklantsaldi tot de gekozen soort Man, Vrouw, Stel, Baard, Groep, Bar of Tafel",
-                  "Vermijd onnodige databasegegevens bij het kiezen van een snelle klant",
-                  "Behoud het hergebruik van vrije snelklantnummers en de bescherming van open bonnen",
-                  "Regressietest met meerdere soorten snelle klanten in hetzelfde klantenbestand"
+                  "Cafe88 POS 0.5.166",
+                  "Indexeer actieve klantnamen eenmalig bij het kiezen en herstellen van snelklanten",
+                  "Voorkom herhaald doorzoeken van de volledige klantenlijst bij bezette snelklantnummers",
+                  "Behoud bestaande behandeling van hoofdletters en spaties en de eerste naam-match",
+                  "Regressietests voor genormaliseerde namen bij selectie en herstel"
               ]
 }
