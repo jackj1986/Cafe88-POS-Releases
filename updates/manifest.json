@@ -1,13 +1,14 @@
 {
-    "version":  "0.5.162",
-    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.162/Cafe88-POS-update-0.5.162.zip",
-    "sha256":  "abaa6f000e005d7d579b931a29f2f6eaaca8b668ddd85bf2ef13cc07c962a027",
+    "version":  "0.5.163",
+    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.163/Cafe88-POS-update-0.5.163.zip",
+    "sha256":  "671cab1c440c5cf3bcede1ec070a867a5e18d885e3153e7d7fb5eb2f08b90194",
     "required":  false,
     "notes":  [
-                  "Cafe88 POS 0.5.162",
-                  "Voorkom fouten door ontbrekende bonverwijzingen in de klantenoverzichten",
-                  "Sla ontbrekende bonnen veilig over bij de lijst zonder klant en de bonnensnapshot",
-                  "Behoud de bestaande verwerking van geldige open bonnen",
-                  "Regressietest voor klantenoverzichten met ontbrekende bonverwijzingen"
+                  "Cafe88 POS 0.5.163",
+                  "Reserveer genummerde snelklantnamen voor de automatische snelklantfunctie",
+                  "Voorkom dat gewone klanten met namen zoals Man 1 na betaling worden opgeruimd",
+                  "Handmatig aanmaken van Man 01 of andere niet-gereserveerde namen blijft mogelijk",
+                  "Behoud de bestaande snelklantnummering en herstel na betaling-ongedaan-maken",
+                  "Regressietests voor normale en gereserveerde klantnamen"
               ]
 }
