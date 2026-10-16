@@ -1,14 +1,13 @@
 {
-    "version":  "0.5.163",
-    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.163/Cafe88-POS-update-0.5.163.zip",
-    "sha256":  "671cab1c440c5cf3bcede1ec070a867a5e18d885e3153e7d7fb5eb2f08b90194",
+    "version":  "0.5.164",
+    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.164/Cafe88-POS-update-0.5.164.zip",
+    "sha256":  "a6af5e9cec76917b8234ef2ba139e24c6259bd475683ec5abecf87f631aaee5d",
     "required":  false,
     "notes":  [
-                  "Cafe88 POS 0.5.163",
-                  "Reserveer genummerde snelklantnamen voor de automatische snelklantfunctie",
-                  "Voorkom dat gewone klanten met namen zoals Man 1 na betaling worden opgeruimd",
-                  "Handmatig aanmaken van Man 01 of andere niet-gereserveerde namen blijft mogelijk",
-                  "Behoud de bestaande snelklantnummering en herstel na betaling-ongedaan-maken",
-                  "Regressietests voor normale en gereserveerde klantnamen"
+                  "Cafe88 POS 0.5.164",
+                  "Sla samengevoegde snelklanten over bij de automatische batchopruiming",
+                  "Voorkom dat gekoppelde klantrecords als tijdelijke klanten worden verwijderd",
+                  "Breng batchopruiming in overeenstemming met de veiligheidscontrole van losse snelklanten",
+                  "Regressietest voor samengevoegde snelklanten zonder openstaand saldo"
               ]
 }
