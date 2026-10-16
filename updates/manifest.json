@@ -1,13 +1,13 @@
 {
-    "version":  "0.5.166",
-    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.166/Cafe88-POS-update-0.5.166.zip",
-    "sha256":  "92c3cd8757e542d83702d7465c44893def6083dfd1cca4ea1e260d545600b6e9",
+    "version":  "0.5.167",
+    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.167/Cafe88-POS-update-0.5.167.zip",
+    "sha256":  "df1831af132b994158b5ef7d06ff7461d4c3327f2e0e85361f3ce5743cded0f4",
     "required":  false,
     "notes":  [
-                  "Cafe88 POS 0.5.166",
-                  "Indexeer actieve klantnamen eenmalig bij het kiezen en herstellen van snelklanten",
-                  "Voorkom herhaald doorzoeken van de volledige klantenlijst bij bezette snelklantnummers",
-                  "Behoud bestaande behandeling van hoofdletters en spaties en de eerste naam-match",
-                  "Regressietests voor genormaliseerde namen bij selectie en herstel"
+                  "Cafe88 POS 0.5.167",
+                  "Laat bij handmatige invoer duidelijk zien dat namen zoals Man 1 voor snelklanten zijn gereserveerd",
+                  "Verberg de knop Nieuwe klant wanneer een gereserveerde snelklantnaam is ingevoerd",
+                  "Voorkom ook bij een directe knopactie dat die gereserveerde naam wordt aangemaakt",
+                  "Regressietest voor gereserveerde en gewone klantnamen in de touchscreen-invoer"
               ]
 }
