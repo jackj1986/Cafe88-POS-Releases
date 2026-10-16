@@ -1,13 +1,13 @@
 {
-    "version":  "0.5.181",
-    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.181/Cafe88-POS-update-0.5.181.zip",
-    "sha256":  "d90a4e1f04b6555712cf424195df19ab1bdc6ffba5f57af98d0ec6e2900a4d01",
+    "version":  "0.5.182",
+    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.182/Cafe88-POS-update-0.5.182.zip",
+    "sha256":  "d8aa08df925236273c0712990f6e0a833bb2bdb769edfc3fbe0204f559da24ba",
     "required":  false,
     "notes":  [
-                  "Cafe88 POS 0.5.181",
-                  "Sla ontbrekende klantrecords over bij het opbouwen van de snelle klantzoeklijst",
-                  "Voorkom dat een null-item in een klantenlijst de gehele snelle klantselectie blokkeert",
-                  "Behoud een onveranderlijke momentopname van de resterende geldige klanten",
-                  "Regressietest voor ontbrekende records, bronlijstwijzigingen en ontbrekende klantenlijst"
+                  "Cafe88 POS 0.5.182",
+                  "Optimaliseer de brede klantzoekfunctie met eenmalige naamopvraging en normalisatie",
+                  "Voorkom herhaald opvragen van klantnamen tijdens alfabetische sortering",
+                  "Behoud oorspronkelijke volgorde bij gelijke genormaliseerde namen",
+                  "Regressietest voor hoofdletterongevoelige zoektermen en alfabetische volgorde"
               ]
 }
