@@ -1,13 +1,13 @@
 {
-    "version":  "0.5.174",
-    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.174/Cafe88-POS-update-0.5.174.zip",
-    "sha256":  "c89e5f074314b8c668fb9090a240eb1b7f3f43206266f6b2f32f73bfa8249bfa",
+    "version":  "0.5.175",
+    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.175/Cafe88-POS-update-0.5.175.zip",
+    "sha256":  "88b895c6c4edbd50ff39548bdad8e5ba068b7073a98db73bc0542056ef4214b3",
     "required":  false,
     "notes":  [
-                  "Cafe88 POS 0.5.174",
-                  "Voorkom dat reeds betaalde bonnen als openstaande klantbon meetellen bij een gemengde bonnenlijst",
-                  "Toon betaalde bonnen niet in de lijst met openstaande bonnen zonder klant",
-                  "Behoud openstaande klantbonnen ook wanneer de opgeslagen klantnaam ontbreekt",
-                  "Regressietests voor betaalde bonnen met en zonder klant en open bonnen"
+                  "Cafe88 POS 0.5.175",
+                  "Controleer Nieuwe klant met één gecombineerde zoekactie in plaats van herhaalde controles over de klantenlijst",
+                  "Blokkeer bestaande en gedeeltelijk overeenkomende klantnamen en behoud bescherming van gereserveerde snelklantnamen",
+                  "Behoud het aanmaken van een geldige nieuwe klant via het touchscreen",
+                  "JavaFX-regressietest voor gedeeltelijke treffers, bestaande klanten en nieuwe namen"
               ]
 }
