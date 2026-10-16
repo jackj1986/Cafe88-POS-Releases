@@ -1,13 +1,13 @@
 {
-    "version":  "0.5.180",
-    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.180/Cafe88-POS-update-0.5.180.zip",
-    "sha256":  "e4bbf8d98b6e43aef74921a4d2d4a7c93d6494ecf593823d48c88788eda9a2d9",
+    "version":  "0.5.181",
+    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.181/Cafe88-POS-update-0.5.181.zip",
+    "sha256":  "d90a4e1f04b6555712cf424195df19ab1bdc6ffba5f57af98d0ec6e2900a4d01",
     "required":  false,
     "notes":  [
-                  "Cafe88 POS 0.5.180",
-                  "Toon opgeslagen open bonnen zonder klant hooguit eenmaal per bon-ID",
-                  "Behoud oorspronkelijke volgorde en afzonderlijke tijdelijke bonnen zonder opgeslagen ID",
-                  "Sluit betaalde en reeds aan een klant gekoppelde bonnen uit",
-                  "Regressietest voor dubbele bon-ID\u0027s, tijdelijke bonnen en betaalde bonnen"
+                  "Cafe88 POS 0.5.181",
+                  "Sla ontbrekende klantrecords over bij het opbouwen van de snelle klantzoeklijst",
+                  "Voorkom dat een null-item in een klantenlijst de gehele snelle klantselectie blokkeert",
+                  "Behoud een onveranderlijke momentopname van de resterende geldige klanten",
+                  "Regressietest voor ontbrekende records, bronlijstwijzigingen en ontbrekende klantenlijst"
               ]
 }
