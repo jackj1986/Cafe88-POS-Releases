@@ -1,13 +1,13 @@
 {
-    "version":  "0.5.179",
-    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.179/Cafe88-POS-update-0.5.179.zip",
-    "sha256":  "1661aa461050e892803c895e536a98cbd1e90a0452a5ec7127c8839063eee02e",
+    "version":  "0.5.180",
+    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.180/Cafe88-POS-update-0.5.180.zip",
+    "sha256":  "e4bbf8d98b6e43aef74921a4d2d4a7c93d6494ecf593823d48c88788eda9a2d9",
     "required":  false,
     "notes":  [
-                  "Cafe88 POS 0.5.179",
-                  "Controleer de status van een bestaande klantnaam in één ronde in plaats van twee",
-                  "Lees en normaliseer iedere klantnaam maximaal eenmaal bij gedeeltelijke overeenkomsten",
-                  "Behoud voorrang van exacte klanten boven gedeeltelijke matches, ook verderop in de lijst",
-                  "Regressietests voor naamopvragingen, exacte matches, lege invoer en ontbrekende klanten"
+                  "Cafe88 POS 0.5.180",
+                  "Toon opgeslagen open bonnen zonder klant hooguit eenmaal per bon-ID",
+                  "Behoud oorspronkelijke volgorde en afzonderlijke tijdelijke bonnen zonder opgeslagen ID",
+                  "Sluit betaalde en reeds aan een klant gekoppelde bonnen uit",
+                  "Regressietest voor dubbele bon-ID\u0027s, tijdelijke bonnen en betaalde bonnen"
               ]
 }
