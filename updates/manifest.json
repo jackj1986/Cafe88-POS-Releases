@@ -1,14 +1,13 @@
 {
-    "version":  "0.5.168",
-    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.168/Cafe88-POS-update-0.5.168.zip",
-    "sha256":  "686ed4c158f6a81562bfc86459d4540203638da7b1210eb58c6fd5814e8641aa",
+    "version":  "0.5.169",
+    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.169/Cafe88-POS-update-0.5.169.zip",
+    "sha256":  "60857f8f7405c2f2b0783b3b43b5dbabbd88f8516eb7d93c86ada9edf2beec2f",
     "required":  false,
     "notes":  [
-                  "Cafe88 POS 0.5.168",
-                  "Voorkom het handmatig aanmaken van dubbele actieve klantnamen",
-                  "Vergelijk namen hoofdletterongevoelig en zonder spaties aan het begin of einde",
-                  "Laat namen van uitgeschakelde klanten opnieuw toe",
-                  "Behoud automatische snelklantnamen en bestaande klantrekeningen",
-                  "Regressietests voor dubbelingen en uitgeschakelde klanten"
+                  "Cafe88 POS 0.5.169",
+                  "Voorkom dubbele actieve namen wanneer een uitgeschakelde klant opnieuw wordt geactiveerd",
+                  "Bescherm oudere gereserveerde snelklantnamen tegen onbedoelde heractivering",
+                  "Laat het uitschakelen en opnieuw activeren van bestaande actieve klanten ongemoeid",
+                  "Regressietests voor heractivering, naamconflicten en veilige klantstatuswijzigingen"
               ]
 }
