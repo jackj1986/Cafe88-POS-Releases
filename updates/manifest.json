@@ -1,13 +1,13 @@
 {
-    "version":  "0.5.172",
-    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.172/Cafe88-POS-update-0.5.172.zip",
-    "sha256":  "05e681c8f7b9a27c18aa5515f2fef5c77aaa84b6c4ea2665e8783f6df329abde",
+    "version":  "0.5.173",
+    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.173/Cafe88-POS-update-0.5.173.zip",
+    "sha256":  "172a40f5187fbab173bfd81955ab599a94b78948620aa65e3ceea14e2ca3bb81",
     "required":  false,
     "notes":  [
-                  "Cafe88 POS 0.5.172",
-                  "Beperk het sorteren bij brede klantzoektermen tot maximaal het ingestelde aantal zichtbare suggesties",
-                  "Voorkom dat lange overeenkomstenlijsten onnodig worden opgebouwd bij iedere getypte letter",
-                  "Behoud alfabetische volgorde, stabiele selectie bij gelijke namen en exacte treffers",
-                  "Regressietests voor brede zoekacties met honderden klanten en gelijke namen"
+                  "Cafe88 POS 0.5.173",
+                  "Tel een open bon met geldig klant-ID mee bij de gekoppelde klant, ook als de opgeslagen klantnaam ontbreekt",
+                  "Gebruik de naam van het actuele klantrecord voor Recente klanten",
+                  "Laat werkelijk klantloze bonnen apart in het overzicht zonder klant staan",
+                  "Regressietest voor lege en ontbrekende klantnamen op open bonnen"
               ]
 }
