@@ -1,13 +1,13 @@
 {
-    "version":  "0.5.171",
-    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.171/Cafe88-POS-update-0.5.171.zip",
-    "sha256":  "9fd151ca63147bfbd23c7d6662a401889a47d503b19f5cd1126109ed68f34beb",
+    "version":  "0.5.172",
+    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.172/Cafe88-POS-update-0.5.172.zip",
+    "sha256":  "05e681c8f7b9a27c18aa5515f2fef5c77aaa84b6c4ea2665e8783f6df329abde",
     "required":  false,
     "notes":  [
-                  "Cafe88 POS 0.5.171",
-                  "Bepaal zoekstatus en klantsuggesties samen in één ronde door het klantenbestand",
-                  "Normaliseer klantnamen maar één keer per zoekactie bij het typen op het touchscreen",
-                  "Behoud exacte treffers, alfabetische suggesties, het maximum van zes en gereserveerde snelklantnamen",
-                  "Regressietests voor de gecombineerde zoekactie en onveranderde zoekresultaten"
+                  "Cafe88 POS 0.5.172",
+                  "Beperk het sorteren bij brede klantzoektermen tot maximaal het ingestelde aantal zichtbare suggesties",
+                  "Voorkom dat lange overeenkomstenlijsten onnodig worden opgebouwd bij iedere getypte letter",
+                  "Behoud alfabetische volgorde, stabiele selectie bij gelijke namen en exacte treffers",
+                  "Regressietests voor brede zoekacties met honderden klanten en gelijke namen"
               ]
 }
