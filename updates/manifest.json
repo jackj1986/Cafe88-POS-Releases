@@ -1,13 +1,13 @@
 {
-    "version":  "0.5.175",
-    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.175/Cafe88-POS-update-0.5.175.zip",
-    "sha256":  "88b895c6c4edbd50ff39548bdad8e5ba068b7073a98db73bc0542056ef4214b3",
+    "version":  "0.5.176",
+    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.176/Cafe88-POS-update-0.5.176.zip",
+    "sha256":  "f51a91ce773d7628139f41f9791b10b50bddc4f2ba594122137e917327a7a010",
     "required":  false,
     "notes":  [
-                  "Cafe88 POS 0.5.175",
-                  "Controleer Nieuwe klant met één gecombineerde zoekactie in plaats van herhaalde controles over de klantenlijst",
-                  "Blokkeer bestaande en gedeeltelijk overeenkomende klantnamen en behoud bescherming van gereserveerde snelklantnamen",
-                  "Behoud het aanmaken van een geldige nieuwe klant via het touchscreen",
-                  "JavaFX-regressietest voor gedeeltelijke treffers, bestaande klanten en nieuwe namen"
+                  "Cafe88 POS 0.5.176",
+                  "Sla bij het opruimen van afgeronde snelle klanten ook open bonnen van nul euro direct over",
+                  "Voorkom onnodige database-verwijdertransacties voor snelklanten met nog een open bon",
+                  "Behoud de transactieve veiligheidscontrole in de repository",
+                  "Regressietest voor open nulbonnen, vrije snelklanten en openstaande saldi"
               ]
 }
