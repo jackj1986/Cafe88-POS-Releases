@@ -1,13 +1,14 @@
 {
-    "version":  "0.5.185",
-    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.185/Cafe88-POS-update-0.5.185.zip",
-    "sha256":  "7a62aaa85cd062e11fc37b7bcfb4ca06c071d011c91aab93d6ae55bf46f3ef31",
+    "version":  "0.5.186",
+    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.186/Cafe88-POS-update-0.5.186.zip",
+    "sha256":  "08035f35813d885320796f296fcbe12522c86f979d14ef1af6a8c168ed1d9a00",
     "required":  false,
     "notes":  [
-                  "Cafe88 POS 0.5.185",
-                  "Voorkom achterblijvende Man 2 na geannuleerde klantwissel",
-                  "Ruim alleen een nieuwe, niet daadwerkelijk gekozen snelklant op",
-                  "Laat hergebruikte snelle klanten staan en behoud bonveiligheid in SQLite",
-                  "Regressietests voor annuleren, bevestigen en hergebruik van snelle klanten"
+                  "Cafe88 POS 0.5.186",
+                  "Ruim lege snelle klanten op zodra hun klantrekening wordt verlaten",
+                  "Eén centrale controle bij relevante bonwijzigingen en klantwissels",
+                  "Huidige klant, gewone klanten en openstaande bonnen blijven beschermd",
+                  "Voorkom databasewerk bij herhaalde events zonder klantwissel",
+                  "Regressietests voor wisselen, sluiten, openstaande bedragen en gewone klanten"
               ]
 }
