@@ -1,14 +1,14 @@
 {
-    "version":  "0.5.186",
-    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.186/Cafe88-POS-update-0.5.186.zip",
-    "sha256":  "08035f35813d885320796f296fcbe12522c86f979d14ef1af6a8c168ed1d9a00",
+    "version":  "0.5.187",
+    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.187/Cafe88-POS-update-0.5.187.zip",
+    "sha256":  "42b61961ebc361ac136303a35d051f696fc8e801934a6521e9b19d93adc4162c",
     "required":  false,
     "notes":  [
-                  "Cafe88 POS 0.5.186",
-                  "Ruim lege snelle klanten op zodra hun klantrekening wordt verlaten",
-                  "Eén centrale controle bij relevante bonwijzigingen en klantwissels",
-                  "Huidige klant, gewone klanten en openstaande bonnen blijven beschermd",
-                  "Voorkom databasewerk bij herhaalde events zonder klantwissel",
-                  "Regressietests voor wisselen, sluiten, openstaande bedragen en gewone klanten"
+                  "Cafe88 POS 0.5.187",
+                  "Ruim ook oudere ongebruikte snelle klanten eenmalig op bij de eerste klantwissel",
+                  "Behoud de geopende klant en bescherm open bonnen inclusief EUR 0",
+                  "Gebruik bestaande transactionele batchopruiming met gerichte klantuitsluiting",
+                  "Latere wissels controleren alleen de verlaten klant, zonder brede herhaalscans",
+                  "Regressietests voor oude snelklanten, actieve klant en bonveiligheid"
               ]
 }
