@@ -1,14 +1,14 @@
 {
-    "version":  "0.5.188",
-    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.188/Cafe88-POS-update-0.5.188.zip",
-    "sha256":  "c0bfdc2651a3c1a0fbfef97bf103d6bb731ac449478197050cd72bea00c42f89",
+    "version":  "0.5.189",
+    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.189/Cafe88-POS-update-0.5.189.zip",
+    "sha256":  "d3780f1363d344a5945e853854e505a83875d3dce2b1b6296b8b06cc2c153ae8",
     "required":  false,
     "notes":  [
-                  "Cafe88 POS 0.5.188",
-                  "Voorkom herselecteren van de momenteel geopende lege snelle klant",
-                  "Tweede druk op Man, Vrouw en andere snelknoppen kiest een andere beschikbare klant",
-                  "Behoud bestaand hergebruik van overige vrije snelle klanten",
-                  "Geen extra brede SQL-query of invloed op bestaande bonnen en betalingen",
-                  "Regressietests voor actieve lege klant en hergebruik zonder geopende rekening"
+                  "Cafe88 POS 0.5.189",
+                  "Toon ingebouwde wisselgeldrekenhulp bij contant betalen ook zonder optionele CASH_CHANGE-module",
+                  "Core-only kassas blijven contant betalen, wisselgeld berekenen en de kassalade gebruiken",
+                  "Optionele CASH_CHANGE-module blijft uitsluitend nodig voor instelbare automatische sluitduur",
+                  "Module-aan of uit schakelen verbergt de standaard wisselgeldweergave niet meer",
+                  "Regressietest voor EUR 13,00 betaald met EUR 20,00: EUR 7,00 wisselgeld"
               ]
 }
