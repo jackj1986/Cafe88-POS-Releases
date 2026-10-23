@@ -1,14 +1,14 @@
 {
-    "version":  "0.5.189",
-    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.189/Cafe88-POS-update-0.5.189.zip",
-    "sha256":  "d3780f1363d344a5945e853854e505a83875d3dce2b1b6296b8b06cc2c153ae8",
+    "version":  "0.5.190",
+    "download":  "https://github.com/jackj1986/Cafe88-POS-Releases/releases/download/v0.5.190/Cafe88-POS-update-0.5.190.zip",
+    "sha256":  "c6dde809fb9bd39aca1fd2520b81115f7629b1b69f55e2c356109c90273f7b6f",
     "required":  false,
     "notes":  [
-                  "Cafe88 POS 0.5.189",
-                  "Toon ingebouwde wisselgeldrekenhulp bij contant betalen ook zonder optionele CASH_CHANGE-module",
-                  "Core-only kassas blijven contant betalen, wisselgeld berekenen en de kassalade gebruiken",
-                  "Optionele CASH_CHANGE-module blijft uitsluitend nodig voor instelbare automatische sluitduur",
-                  "Module-aan of uit schakelen verbergt de standaard wisselgeldweergave niet meer",
-                  "Regressietest voor EUR 13,00 betaald met EUR 20,00: EUR 7,00 wisselgeld"
+                  "Cafe88 POS 0.5.190",
+                  "Bescherm snelle klanten met een open bon van EUR 0,00 bij wisselen van klant",
+                  "Controleer naast de transactionele SQLite-boncheck ook de actuele open bonnen in de kassasessie",
+                  "Eenmalige opruimbatch en latere gerichte opruiming respecteren beide open nulbonnen",
+                  "Echt lege snelle klanten zonder open bon worden nog steeds automatisch verwijderd",
+                  "Extra regressietests voor open nulbon met vertraagde database-statistieken en klantwissels"
               ]
 }
